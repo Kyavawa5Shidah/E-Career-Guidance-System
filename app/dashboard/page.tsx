@@ -2,24 +2,28 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import {
   BarChart,
+  Bot,
   Briefcase,
   GraduationCap,
   LineChart,
   ListChecks,
+  MessageSquareText,
   PieChart,
   Plus,
+  Sparkles,
   Star,
   TrendingUp,
   User,
 } from "lucide-react"
+import { useAuth } from "@/lib/auth-context"
 
 // Add this interface at the top of the file, before the component definition
 interface SidebarLinkProps {
@@ -31,10 +35,22 @@ interface SidebarLinkProps {
 
 export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState("overview")
+  const { user } = useAuth()
+  const [aiRecommendations, setAiRecommendations] = useState<{
+    careerMatch: string
+    matchPercentage: number
+    recommendedSkills: string[]
+    personalized: boolean
+  }>({
+    careerMatch: "",
+    matchPercentage: 0,
+    recommendedSkills: [],
+    personalized: false,
+  })
 
   // Mock data for the dashboard
   const userData = {
-    name: "John Doe",
+    name: user?.name || "User",
     completedAssessments: 2,
     totalAssessments: 5,
     skillsMatched: 65,
@@ -64,6 +80,23 @@ export default function DashboardPage() {
     ],
   }
 
+  // Simulate loading AI recommendations
+  useEffect(() => {
+    const getAiRecommendations = async () => {
+      // In a real app, this would be an API call to your AI service
+      await new Promise((resolve) => setTimeout(resolve, 1500))
+
+      setAiRecommendations({
+        careerMatch: "Full Stack Developer",
+        matchPercentage: 87,
+        recommendedSkills: ["Node.js", "React", "Database Design"],
+        personalized: true,
+      })
+    }
+
+    getAiRecommendations()
+  }, [])
+
   return (
     <div className="container mx-auto py-8 px-4">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
@@ -85,6 +118,85 @@ export default function DashboardPage() {
             </Link>
           </Button>
         </div>
+      </div>
+
+      {/* New AI Advisor Card */}
+      <div className="mb-6">
+        <Card className="relative overflow-hidden border-primary/20">
+          <div className="absolute top-0 right-0 w-24 h-24 md:w-40 md:h-40 opacity-5">
+            <Bot className="w-full h-full text-primary" />
+          </div>
+          <CardHeader className="pb-2">
+            <div className="flex items-center">
+              <Sparkles className="h-5 w-5 text-primary mr-2" />
+              <CardTitle>AI Career Insight</CardTitle>
+            </div>
+            <CardDescription>Personalized career recommendations powered by AI</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="lg:col-span-2">
+                <div className="p-4 rounded-lg bg-primary/5 mb-4">
+                  {aiRecommendations.personalized ? (
+                    <div className="space-y-3">
+                      <div>
+                        <h3 className="font-medium">Top Career Match: {aiRecommendations.careerMatch}</h3>
+                        <div className="flex justify-between text-sm mt-1 mb-1">
+                          <span>Match Score</span>
+                          <span className="font-medium">{aiRecommendations.matchPercentage}%</span>
+                        </div>
+                        <Progress value={aiRecommendations.matchPercentage} className="h-2" />
+                      </div>
+                      <div>
+                        <h3 className="font-medium text-sm mt-3">Recommended Skills to Develop:</h3>
+                        <div className="flex flex-wrap gap-2 mt-2">
+                          {aiRecommendations.recommendedSkills.map((skill, i) => (
+                            <span
+                              key={i}
+                              className="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs font-medium"
+                            >
+                              {skill}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="flex items-center justify-center h-24">
+                      <div className="text-center">
+                        <div className="inline-block animate-spin rounded-full h-6 w-6 border-2 border-primary border-t-transparent mb-2"></div>
+                        <p className="text-sm text-muted-foreground">Analyzing your profile...</p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                <div className="text-sm text-muted-foreground">
+                  Our AI analyzes your skills, experience, and assessment results to provide tailored career
+                  recommendations.
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <Button className="w-full" asChild>
+                  <Link href="/ai-advisor">
+                    <MessageSquareText className="mr-2 h-4 w-4" />
+                    Ask AI Advisor
+                  </Link>
+                </Button>
+                <Button variant="outline" className="w-full" asChild>
+                  <Link href="/assessment">
+                    <ListChecks className="mr-2 h-4 w-4" />
+                    Complete Assessment
+                  </Link>
+                </Button>
+                <div className="mt-2 text-center text-xs text-muted-foreground">
+                  More assessments = better recommendations
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
 
       <Tabs defaultValue="overview" value={activeTab} onValueChange={setActiveTab} className="space-y-6">
@@ -111,6 +223,11 @@ export default function DashboardPage() {
                 <p className="text-xs text-muted-foreground">Assessments completed</p>
                 <Progress value={(userData.completedAssessments / userData.totalAssessments) * 100} className="mt-3" />
               </CardContent>
+              <CardFooter className="pt-0 pb-3 px-6">
+                <Button variant="link" className="h-auto p-0" asChild>
+                  <Link href="/assessment">Take next assessment</Link>
+                </Button>
+              </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center justify-between pb-2">
@@ -122,6 +239,11 @@ export default function DashboardPage() {
                 <p className="text-xs text-muted-foreground">Match with top career</p>
                 <Progress value={userData.skillsMatched} className="mt-3" />
               </CardContent>
+              <CardFooter className="pt-0 pb-3 px-6">
+                <Button variant="link" className="h-auto p-0" asChild>
+                  <Link href="/skill-assessment">View skills details</Link>
+                </Button>
+              </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center justify-between pb-2">
@@ -131,10 +253,13 @@ export default function DashboardPage() {
               <CardContent>
                 <div className="text-2xl font-bold">{userData.jobMatches.length}</div>
                 <p className="text-xs text-muted-foreground">Matching job opportunities</p>
-                <Button variant="link" className="p-0 h-auto mt-3" asChild>
+                <Progress value={75} className="mt-3" />
+              </CardContent>
+              <CardFooter className="pt-0 pb-3 px-6">
+                <Button variant="link" className="h-auto p-0" asChild>
                   <Link href="/jobs">View all jobs</Link>
                 </Button>
-              </CardContent>
+              </CardFooter>
             </Card>
           </div>
 
@@ -229,6 +354,7 @@ export default function DashboardPage() {
           </div>
         </TabsContent>
 
+        {/* Other tab content remains the same */}
         <TabsContent value="careers" className="space-y-6">
           <Card>
             <CardHeader>
