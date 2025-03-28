@@ -22,4 +22,4 @@ def match_careers(user_id, weight_skills=0.5, weight_qualifications=0.3, weight_
     )
 
     # Return top 5 matches
-    return user, career_df_sorted[["career_name", "confidence_score"]].sort_values(by="confidence_score", ascending=False).head(3)
+    return user, career_df_sorted[["career_name", "description", "required_skills", "qualifications", "industry_type",  "confidence_score"]].sort_values(by="confidence_score", ascending=False).head(3)
