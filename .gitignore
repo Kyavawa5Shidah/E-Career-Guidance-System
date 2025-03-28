@@ -1,0 +1,4 @@
+env/
+.env/
+.processed_career_data.csv/
+
