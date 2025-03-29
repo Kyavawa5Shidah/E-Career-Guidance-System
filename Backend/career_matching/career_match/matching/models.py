@@ -22,3 +22,11 @@ class Career(models.Model):
 
     def __str__(self):
         return self.career_name
+
+class CareerMatchResult(models.Model):
+    user_id = models.IntegerField()
+    career_name = models.CharField(max_length=255)
+    description = models.CharField(max_length=255)
+    required_skills = models.CharField(max_length=255)
+    confidence_score = models.FloatField()  # If you have a scoring system
+    timestamp = models.DateTimeField(auto_now_add=True)
