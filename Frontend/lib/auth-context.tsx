@@ -7,109 +7,152 @@ interface User {
   id: string
   name: string
   email: string
-  image?: string
+  role: string
 }
 
 interface AuthContextType {
   user: User | null
+  isLoading: boolean
   isAuthenticated: boolean
   login: (email: string, password: string) => Promise<void>
-  register: (name: string, email: string, password: string) => Promise<void>
   logout: () => void
+  register: (name: string, email: string, password: string) => Promise<void>
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
   const router = useRouter()
 
-  // Check if user is already logged in on mount
+  const isAuthenticated = !!user
+
+  // Check if user is logged in on mount
   useEffect(() => {
-    const storedUser = localStorage.getItem("user")
-    if (storedUser) {
-      setUser(JSON.parse(storedUser))
-      setIsAuthenticated(true)
+    const checkAuth = () => {
+      // In a real app, this would verify the token with your backend
+      const storedUser = localStorage.getItem("user")
+
+      if (storedUser) {
+        setUser(JSON.parse(storedUser))
+      }
+
+      setIsLoading(false)
     }
+
+    checkAuth()
   }, [])
 
   // Login function
   const login = async (email: string, password: string) => {
-    // In a real app, you would make an API call to authenticate
-    // For now, we'll just simulate a successful login
+    setIsLoading(true)
+
     try {
-      // Simulate API delay
+      // In a real app, this would be an API call to your backend
+      // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
-      // Create a mock user
-      const mockUser = {
-        id: "user-1",
-        name: email.split("@")[0], // Use part of email as name
+      // Mock user data
+      const userData: User = {
+        id: "user_" + Math.random().toString(36).substr(2, 9),
+        name: email.split("@")[0],
         email,
-        image: "/placeholder.svg?height=32&width=32",
+        role: "user",
       }
 
-      // Save user to state and localStorage
-      setUser(mockUser)
-      setIsAuthenticated(true)
-      localStorage.setItem("user", JSON.stringify(mockUser))
+      // Save to localStorage
+      localStorage.setItem("user", JSON.stringify(userData))
+      setUser(userData)
 
-      // Redirect to dashboard
-      router.push("/dashboard")
+      // Also set a token in localStorage and cookie for middleware to detect
+      const token = "mock-jwt-token-" + Math.random().toString(36).substr(2, 9)
+      localStorage.setItem("token", token)
+      document.cookie = `token=${token}; path=/; max-age=86400`
+
+      // Check if user has completed onboarding
+      const userProfile = localStorage.getItem("userProfile")
+
+      if (userProfile) {
+        const profile = JSON.parse(userProfile)
+
+        if (profile.profileCompleted) {
+          // User has completed onboarding, redirect to dashboard
+          document.cookie = `profileCompleted=true; path=/; max-age=86400`
+          window.location.href = "/dashboard"
+        } else {
+          // User has not completed onboarding, redirect to onboarding
+          document.cookie = `profileCompleted=false; path=/; max-age=86400`
+          window.location.href = "/onboarding"
+        }
+      } else {
+        // No profile found, this is first login, redirect to onboarding
+        document.cookie = `profileCompleted=false; path=/; max-age=86400`
+        window.location.href = "/onboarding"
+      }
     } catch (error) {
       console.error("Login failed:", error)
       throw error
-    }
-  }
-
-  // Register function
-  const register = async (name: string, email: string, password: string) => {
-    // In a real app, you would make an API call to register the user
-    // For now, we'll just simulate a successful registration
-    try {
-      // Simulate API delay
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      // Create a mock user
-      const mockUser = {
-        id: "user-" + Math.floor(Math.random() * 1000),
-        name,
-        email,
-        image: "/placeholder.svg?height=32&width=32",
-      }
-
-      // Save user to state and localStorage
-      setUser(mockUser)
-      setIsAuthenticated(true)
-      localStorage.setItem("user", JSON.stringify(mockUser))
-
-      // Redirect to dashboard
-      router.push("/dashboard")
-    } catch (error) {
-      console.error("Registration failed:", error)
-      throw error
+    } finally {
+      setIsLoading(false)
     }
   }
 
   // Logout function
   const logout = () => {
-    setUser(null)
-    setIsAuthenticated(false)
     localStorage.removeItem("user")
-    router.push("/auth/login")
+    localStorage.removeItem("token")
+    document.cookie = "token=; path=/; max-age=0"
+    document.cookie = "profileCompleted=; path=/; max-age=0"
+    setUser(null)
+    router.push("/login")
+  }
+
+  // Register function
+  const register = async (name: string, email: string, password: string) => {
+    setIsLoading(true)
+
+    try {
+      // In a real app, this would be an API call to your backend
+      // Simulate API call
+      await new Promise((resolve) => setTimeout(resolve, 1000))
+
+      // Mock user data
+      const userData: User = {
+        id: "user_" + Math.random().toString(36).substr(2, 9),
+        name,
+        email,
+        role: "user",
+      }
+
+      // Save to localStorage
+      localStorage.setItem("user", JSON.stringify(userData))
+      setUser(userData)
+
+      // Redirect to onboarding for new users
+      router.push("/onboarding")
+    } catch (error) {
+      console.error("Registration failed:", error)
+      throw error
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   return (
-    <AuthContext.Provider value={{ user, isAuthenticated, login, register, logout }}>{children}</AuthContext.Provider>
+    <AuthContext.Provider value={{ user, isLoading, isAuthenticated, login, logout, register }}>
+      {children}
+    </AuthContext.Provider>
   )
 }
 
 export function useAuth() {
   const context = useContext(AuthContext)
+
   if (context === undefined) {
     throw new Error("useAuth must be used within an AuthProvider")
   }
+
   return context
 }
 
