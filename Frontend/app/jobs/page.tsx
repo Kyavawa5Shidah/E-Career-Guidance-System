@@ -9,8 +9,17 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Briefcase, Clock, DollarSign, MapPin, Search } from "lucide-react"
+import JobList from "@/components/JobList";
 
 export default function JobsPage() {
+  return (
+    <div>
+      <h1 className="text-2xl font-bold mb-4">Job Listings</h1>
+      <JobList />
+    </div>
+  );
+
+
   const [searchTerm, setSearchTerm] = useState("")
   const [filters, setFilters] = useState({
     jobType: "",

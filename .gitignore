@@ -25,3 +25,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore Python cache and environment
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
