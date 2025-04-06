@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profiles</title>
+</head>
+<body>
+    <h1>User Profiles</h1>
+
+    <ul>
+        {% for profile in profiles %}
+            <li>
+                <strong>Name:</strong> {{ profile.name }}<br>
+                <strong>Age:</strong> {{ profile.age }}<br>
+                <strong>Gender:</strong> {{ profile.gender }}<br>
+                <strong>Education Level:</strong> {{ profile.education_level }}<br>
+                <strong>Career Preferences:</strong> {{ profile.career_preferences }}<br>
+            </li>
+        {% empty %}
+            <p>No profiles found.</p>
+        {% endfor %}
+    </ul>
+</body>
+</html>
