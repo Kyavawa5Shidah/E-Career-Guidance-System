@@ -1,11 +1,13 @@
-from django.urls import path
-from . import views
-from .views import UserProfileCreateView
-
+from django.contrib import admin
+from django.urls import path, include
+from . import views  # Import your views
 
 urlpatterns = [
-    path('profile/', views.user_profile_view, name='user-profile'),
-    path('api/profiles/', views.api_user_profiles, name='user-profiles-api'),
-    path('create-profile/', UserProfileCreateView.as_view(), name='user-profile-create'),
-    
+    path('admin/', admin.site.urls),  # Admin URL
+    # If you have a profiles app with its own urls.py, uncomment the following line
+    # path('profiles/', include('profiles.urls')),  
+    path('api/user/create/', views.UserProfileCreateAPIView.as_view(), name='create_user_profile'),
+    path('profiles/view/', views.user_profile_view, name='user_profile_view'),
+    path('api/profiles/', views.api_user_profiles, name='api_user_profiles'),
+
 ]

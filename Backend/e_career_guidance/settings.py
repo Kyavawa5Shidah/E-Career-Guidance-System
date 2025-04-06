@@ -30,7 +30,7 @@ INSTALLED_APPS = [
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates', ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -60,7 +60,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'e_career_guidance_db',
         'USER': 'root',
-        'PASSWORD': 'PEARLE',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '3306',
          'OPTIONS': {
@@ -71,8 +71,9 @@ DATABASES = {
     }
 }
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]
+STATICFILES_DIRS = [
+    BASE_DIR / "static",  # Ensure this path is correct
+]
 
 
 STATIC_URL = '/static/'
