@@ -1,4 +1,8 @@
 from pathlib import Path
+import os 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -8,11 +12,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-g@)c)vln0aq1rqmq%$!*yl3&^9)9g-5yj8p)0o@++v4*sc8n+4'
 
+SECRET_KEY= os.getenv('SECRET_KEY','default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
+DEBUG=os.getenv('DEBUG','False' =='True')
 ALLOWED_HOSTS = []
 
 # Application definition
@@ -72,14 +76,15 @@ WSGI_APPLICATION = 'career_guidance.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jobs',
-        'USER': 'root',
-        'PASSWORD': 'Fronnie@25-8',
-        'HOST': 'localhost',
-        'PORT': '3306',
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": os.environ.get("DB_NAME", "default_db_name"),
+        "USER": os.environ.get("DB_USER", "default_user"),
+        "PASSWORD": os.environ.get("DB_PASSWORD", "default_password"),
+        "HOST": os.environ.get("DB_HOST", "localhost"),
+        "PORT": os.environ.get("DB_PORT", "3306"),
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
