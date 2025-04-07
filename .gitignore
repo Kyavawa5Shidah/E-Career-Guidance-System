@@ -30,3 +30,7 @@ next-env.d.ts
 backend/__pycache__/
 backend/*.pyc
 backend/*.pyo
+
+
+#Ignore virtual environment
+env

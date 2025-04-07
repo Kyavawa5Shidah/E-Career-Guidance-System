@@ -16,14 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from matching.views import match_career, career_match_results, evaluate_match, test_db_connection, test_user_data
+from matching.views import predict_career
+from matching import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path("match/<int:user_id>/", match_career, name="match_career"),
-    path("match/<int:user_id>/", career_match_results, name="career_match_results"),
-    path("evaluate/<int:user_id>/<str:actual_career>/", evaluate_match, name="evaluate_match"),
-    path("test-db/", test_db_connection, name="test_db"),
-    path("test-user/<int:user_id>/", test_user_data, name="test_user"),
-    path('match/<int:user_id>/', match_career, name='match_career'),
+    path('predict-career/<int:user_id>/', views.predict_career, name='predict_career'),
 ]
+
+
