@@ -1,125 +1,86 @@
-import requests
+import os
+import django
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
-import logging
-from datetime import datetime, timedelta
-from django.utils import timezone
-import re
 from .models import Job
 
-logger = logging.getLogger(__name__)
-
-def parse_date(date_str):
-    """Parse date strings like '2 days ago', 'Today', etc."""
-    today = timezone.now().date()
-    
-    if not date_str or date_str.lower() == 'n/a':
-        return None
-    
-    if 'today' in date_str.lower():
-        return today
-    
-    if 'yesterday' in date_str.lower():
-        return today - timedelta(days=1)
-    
-    # Match patterns like "2 days ago"
-    days_match = re.search(r'(\d+)\s+days?\s+ago', date_str.lower())
-    if days_match:
-        days = int(days_match.group(1))
-        return today - timedelta(days=days)
-    
-    # Match patterns like "2 weeks ago"
-    weeks_match = re.search(r'(\d+)\s+weeks?\s+ago', date_str.lower())
-    if weeks_match:
-        weeks = int(weeks_match.group(1))
-        return today - timedelta(weeks=weeks)
-    
-    # Try to parse as direct date format
-    try:
-        return datetime.strptime(date_str, '%d %b %Y').date()
-    except ValueError:
-        pass
-    
-    return None
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "career_guidance.settings")
+django.setup()
 
 def scrape_brighter_monday():
-    """Scrape job listings from BrighterMonday Uganda"""
-    base_url = "https://www.brightermonday.co.ug/jobs"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    
-    jobs_count = 0
-    
-    try:
-        # Scrape multiple pages
-        for page in range(1, 6):  # Scrape first 5 pages
-            url = f"{base_url}?page={page}"
-            response = requests.get(url, headers=headers)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            job_listings = soup.select('div.search-result')
-            
-            for job in job_listings:
-                try:
-                    # Extract job details
-                    title_elem = job.select_one('h3.search-result__job-title a')
-                    if not title_elem:
-                        continue
-                        
-                    title = title_elem.text.strip()
-                    job_url = title_elem['href']
-                    
-                    # Get company name
-                    company_elem = job.select_one('div.search-result__job-meta a')
-                    company = company_elem.text.strip() if company_elem else "Unknown"
-                    
-                    # Get location
-                    location_elem = job.select_one('div.search-result__location')
-                    location = location_elem.text.strip() if location_elem else "Unknown"
-                    
-                    # Get job type
-                    job_type_elem = job.select_one('a.search-result__job-type')
-                    job_type = job_type_elem.text.strip() if job_type_elem else None
-                    
-                    # Get posted date
-                    date_elem = job.select_one('div.search-result__date')
-                    date_text = date_elem.text.strip() if date_elem else None
-                    posted_date = parse_date(date_text) if date_text else None
-                    
-                    # Check if job already exists in database
-                    if not Job.objects.filter(url=job_url).exists():
-                        # Fetch detailed job page to get more information
-                        job_response = requests.get(job_url, headers=headers)
-                        job_soup = BeautifulSoup(job_response.text, 'html.parser')
-                        
-                        # Get job description
-                        description_elem = job_soup.select_one('div.job-details__job-description')
-                        description = description_elem.text.strip() if description_elem else None
-                        
-                        # Get salary if available
-                        salary_elem = job_soup.select_one('div.salary-info')
-                        salary = salary_elem.text.strip() if salary_elem else None
-                        
-                        # Create new job entry
-                        Job.objects.create(
-                            title=title,
-                            company=company,
-                            location=location,
-                            job_type=job_type,
-                            description=description,
-                            salary=salary,
-                            url=job_url,
-                            posted_date=posted_date
-                        )
-                        jobs_count += 1
-                    
-                except Exception as e:
-                    logger.error(f"Error processing job: {e}")
-                    continue
-            
-    except Exception as e:
-        logger.error(f"Error scraping BrighterMonday: {e}")
-    
-    return jobs_count
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
 
+    driver = webdriver.Chrome(options=options)
+
+    scraped_jobs = 0
+    base_url = "https://www.brightermonday.co.ug/jobs?page={}"
+
+    for page in range(1, 6):
+        print(f"Scraping page {page}...")
+
+        job_url = base_url.format(page)
+        driver.get(job_url)
+        time.sleep(5)
+
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        job_cards = soup.find_all("div", class_="w-full")
+
+        print(f"Found {len(job_cards)} job cards on page {page}.")
+
+        for card in job_cards:
+            try:
+                title_tag = card.find("p", class_="text-lg font-medium break-words text-link-500")
+                if not title_tag or not title_tag.get_text(strip=True):
+                    print("Skipped job with missing title.")
+                    continue
+
+                title = title_tag.get_text(strip=True)
+
+                company_tag = card.find("p", class_="text-sm text-link-500 text-loading-animate inline-block")
+                company = company_tag.get_text(strip=True) if company_tag else "No Company"
+
+                location_tag = card.find("span", class_="mb-3 px-3 py-1 rounded bg-brand-secondary-100 mr-2 text-loading-hide")
+                location = location_tag.get_text(strip=True) if location_tag else "No Location"
+
+                job_url_tag = title_tag.find_parent("a")
+                job_url = (
+                    job_url_tag['href']
+                    if job_url_tag and job_url_tag.has_attr('href') else None
+                )
+
+                if not job_url:
+                    print(f"Skipped job '{title}' due to missing job URL.")
+                    continue
+
+                job_type_tag = card.find("a", class_="text-xs bg-neutral-100")
+                job_type = job_type_tag.get_text(strip=True) if job_type_tag else "Not Specified"
+
+                posted_date_tag = card.find("p", class_="text-xs text-neutral-500")
+                posted_date = posted_date_tag.get_text(strip=True) if posted_date_tag else "Unknown"
+
+                # Skip duplicates
+                if Job.objects.filter(title=title, company=company, location=location, job_url=job_url).exists():
+                   
+                    continue
+
+                Job.objects.create(
+                    title=title,
+                    company=company,
+                    location=location,
+                    job_url=job_url,
+                    job_type=job_type,
+                    posted_date=posted_date,
+                )
+                scraped_jobs += 1
+                print(f"Saved: {title}")
+
+            except Exception as e:
+                print("Error parsing job card:", e)
+
+    driver.quit()
+    print(f"Successfully scraped {scraped_jobs} job(s)")

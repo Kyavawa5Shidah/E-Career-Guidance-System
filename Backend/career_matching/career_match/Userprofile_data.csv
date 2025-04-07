@@ -1,0 +1,748 @@
+Name,Age,Gender,Education_level,Experience,Career_preference,Skills,Actual_career
+John Bosco,23,Male,UACE certificate,2,Journalist,Confidence,High school teacher
+Esther,21,Female,Bachelor's,1,Software developer,Coding ,Software Engineer
+Cronnie,22,Female,Bachelor's,1,Epidemiologist ,"Data management, communication ",Nurse
+Emmanuel,22,Male,UACE certificate,2,cyber security officer,"programming, pen testing ",IT officer
+Owen,27,Male,Bachelor's,3,IT officer,Computer literacy,IT officer
+Rashidah,23,Female,Bachelor's,2,Taxation officer,Accounting ,Receptionist
+Sanyu Rebecca,24,Female,Bachelor's,1,High school teacher,Practical skills ,Primary school teacher
+Britney Pearl,22,Female,UACE certificate,3,IT Auditor,IT skills,IT support
+Rashimi,19,Female,UCE certificate,3,Neurosurgeron,Communication and perseverance ,Doctor
+Eliminah,25,Female,Bachelor's,1,Sales representative,Critical thinking and analytical skills,Receptionist
+Patricia Zareth,23,Male,Bachelor's,2,Software Engineer,Coding ,Data Scientist
+Chris Katende,21,Male,Bachelor's,1,oil and gas engineer,Practical skills,oil and gas engineer
+Cassandra,21,Female,Bachelor's,1,oil and gas engineer,Practical skills,oil and gas engineer
+Grace,22,Male,UACE certificate,1,Dentist,"Manual Dexterity, communication ",Dentist
+Ally,23,Male,Bachelor's,2,Data analyst,Problem solving ,Content Creator
+Mile,23,Male,UACE certificate,2,Software Developer,Practical Skills,Web Developer
+Mike,22,Female,UACE certificate,1,Doctor,Practical skills,Medicine
+Eron,21,Female,UACE certificate,2,Surgeon,"Confidence , knowledge, critical and fast thinking , leadership, communication ",Nursing 
+Zareth,26,Male,Bachelor's,4,Human Resource Manager,Leadership ,Receptionist
+Sofia,22,Female,UACE certificate,1,LAWYER ,"Communication, teamwork, writing, listening ",Law
+Sophie,22,Female,Bachelor's,1,Economist ,"Interpersonal , speech skills",Economist
+Angel,24,Male,UCE certificate,3,Graphics designer,Practical skills,Primary school teacher
+Bright,23,Female,Bachelor's,1,Financial Auditor,"Data analysis skills, monitoring and evaluation ",Data analyst
+Gaby,23,Male,Bachelor's,3,Project manager,Quick thinking and decision making ,Project manager
+Laura Isiga,22,Male,UACE certificate,1,Surveyor,communication ,Surveyor
+Peter,24,Male,Bachelor's,2,IT officer,Hacking,IT officer
+Patrick,22,Male,Bachelor's,3,Data Scientist ,Learning skills,Computer Science 
+Sandra,23,Male,Bachelor's,2,Financial Auditor,Accounting ,Entreprenuer
+Marget,24,Male,Bachelor's,2,Data scienist,Data science,Data analyst
+Vanessa,22,Female,Bachelor's,1,Petroleum engineer,Networking and softskills,Petroleum production
+Paul,32,Male,Bachelor's,3,Civil servant,Communication skills,UX Researcher
+Julius,22,Male,UACE certificate,2,System Analyst,Programing,Web Developer
+Mansoor,22,Female,Bachelor's,1,Human Resource manager ,"Planning ,Organization ",Human Resource Management 
+Robert,21,Male,UACE certificate,3,Writer,Literature ,AI Researcher
+Daisy,24,Female,Bachelor's,2,System Administrator,Professionalism and Soft skills,Graphic Designer
+Yaseem,24,Male,UACE certificate,1,Volunteer,"Efficient communicating, ",Primary school teacher
+Aminah,21,Female,Bachelor's,1,Pharmacist,"Resourcefulness, social networking, ",Nurse
+Doreen,23,Male,Bachelor's,3,Project manager,"Communication skills, problem solving skills, leadership skills, emotional intelligence ",Receptionist
+Patricia Zareth,22,Female,Bachelor's,1,Data scienist,"Python, sql",Software developer
+Bridget,30,Female,Bachelor's,3,Hotel manager,Service delivery ,Project manager
+Kimuli,22,Male,Bachelor's,1,Aviation officer,Multitasking ,Aviation officer
+Timonthy,25,Male,Bachelor's,2,Personal assisstant,Agility ,Graphic Designer
+Tom,24,Male,Bachelor's,3,Lecturer,Public speech and Research skills ,High school teacher
+Jane Smith,25,Male,Bachelor's,3,Doctor,"Attention, communication",Content Creator
+Bob Johnson,22,Female,Bachelor's,1,Architect ,Use of software and creativity ,Architect
+Emily Davis,23,Female,Bachelor's,2,Accounting ,Critical thinking and accuracy ,Entreprenuer
+Michael Brown,22,Male,UACE certificate,2,Software Engineer,"Interpersonal relations, communication skills ",Graphic Designer
+Sarah Wilson,26,Male,Bachelor's,2,System Administrator,Computer skills,UX Researcher
+David Lee,22,Female,Bachelor's,1,Software developer,programming ,IT officer
+Laura Martinez,23,Female,UACE certificate,1,Agricultural officer,Flexibility ,Agriculturial officer
+Kevin White,26,Male,Bachelor's,3,Project manager,"Problem solving, research and analytical skills",Software engineer
+Karen Thompson,24,Male,UACE certificate,1,Entrepreneur,Communication ,Marketing Manager
+Richard Anderson,23,Female,Bachelor's,2,Statistician ,Data analysis ,Entreprenuer
+Jessica Taylor,22,Female,UACE certificate,1,Data Analyst ,decision making,IT support
+Daniel Moore,23,Male,Bachelor's,2,Sport administration,"Leadership, decision making and problem solving",Entreprenuer
+Olivia Jackson,22,Female,Bachelor's,1,LAWYER ,communication ,Lawyer
+William Martin,23,Male,Bachelor's,1,Marketing ,Aggressiveness,IT support
+Sophia Lee,22,Female,Bachelor's,2,Data analyst,Communicatiion,High school teacher
+James Perez,21,Female,Bachelor's,1,Software developer,Consistency ,IT officer
+Ava Thompson,25,Male,Bachelor's,1,Musician,Guitar and saxophone skills,Accountant
+Henry Gonzalez,20,Male,UACE certificate,2,Bank manager ,Mathematics ,Accountant
+Mia Robinson,22,Female,UACE certificate,3,Law,Communication,Lawyer
+Ethan Clark,22,Female,Bachelor's,2,Human resource manager,Team work,Project manager
+Isabella Rodriguez,22,Female,UACE certificate,1,Psychologist,Empathy ,Psychologist
+Liam Lewis,22,Female,UACE certificate,3,Care giver,Commitment and patience,Nurse
+Chloe Walker,21,Female,Bachelor's,3,Civil engineer ,Fast thinking and coming up with technical solutions to technical problems ,Civil Engineer
+Noah Hall,21,Male,UACE certificate,1,IT personnel ,Information technology ,IT personnel
+Emma Allen,21,Female,Bachelor's,2,Lecturer,Hands on skills,Psychologist
+Mason Young,30,Male,Bachelor's,1,Entrepreneur,Communication skills ,Data analyst
+Harper King,22,Male,Bachelor's,1,Software Engineer,Interpersonal ,Software Engineer
+Lucas Wright,22,Female,UACE certificate,1,Doctor,Knowledge,Nurse
+Amelia Scott,22,Male,Bachelor's,2,Bioinformatics ,Novelity ,Linguist
+Oliver Green,22,Female,Bachelor's,2,Accountant,"Communication skills 
+Analytical skills ",Industrial Chemist
+Grace Baker,21,Female,UACE certificate,1,Forensic Scienist,Attention,Police officer
+Elijah Adams,21,Female,UACE certificate,2,IT support,Self awareness ,IT Auditor
+Lily Nelson,22,Male,UACE certificate,4,Biomedical engineer,"Technical skills, research, writing, communication ",Biomedical engineer
+Benjamin Carter,23,Male,Bachelor's,1,DevOps Engineer,"Linux sys administration, cyber knowledge, scripting, DNS.",Web Developer
+Ella Mitchell,22,Male,UACE certificate,1,Software developer,Learning skills,Software Engineer
+Sebastian Perez,21,Male,UACE certificate,3,Software developer,"Programming, communication skills, teamwork ",Software engineer
+Victoria Roberts,22,Male,UACE certificate,1,Control systems engineer,Analytical skills ,Mechanical Engineer
+Jack Turner,21,Female,Bachelor's,3,civil engineer ,Technical skills ,Civil engineer
+Aria Phillips,21,Female,UCE certificate,1,Pediatric nurse,Discipline and confidence ,Nurser
+Samuel Campbell,22,Male,UACE certificate,2,Architect,Creative art,Architect
+Zoe Parker,23,Female,Bachelor's,3,Architect,Drawing skills ,Architect
+Adam Evans,23,Female,Bachelor's,2,International Business Entreprenuer,"Hardworking,commitment and dedication ",Business Administrator
+Natalie Edwards,27,Male,Bachelor's,2,IT auditor,Analytical skills ,IT support
+Aaron Collins,22,Female,UACE certificate,1,LAWYER ,"Problem solving, communication.",Lawyer
+Scarlett Stewart,23,Male,UACE certificate,3,Blockchain developer ,Programming and stocks trading ,Software engineer
+Isaiah Sanchez,22,Male,UACE certificate,2,Big Data analyst,technical skills and communication skills , Software Engineer
+Nora Morris,22,Male,UACE certificate,1,Architect,Critical thinking and creativity ,Electrical Engineer
+Julian Rogers,29,Male,Bachelor's,3,Data Analyst,Data Analytics,Data analyst
+Stella Reed,28,Male,Bachelor's,2,Software Engineer,"Innovative skills, business management ",Mechanical Engineer
+Owen Parker,22,Male,UACE certificate,1,Civil engineer ,"Communication skills, project management ",Civil Engineer
+Chase Murphy,28,Male,Bachelor's,1,Data Science ,Data analysis ,Bioinformatics 
+Aiden Cooper,22,Male,Bachelor's,3,Software engineer ,Programming,IT officer
+Zachary Reed,28,Male,Bachelor's,1,Statistician ,Computer skills ,High school teacher
+Madison Flores,28,Female,Bachelor's,3,Writer,Communication ,Lawyer
+Ethan Brooks,28,Male,Bachelor's,1,Game developer ,Computer literature ,Secretray
+Ava Jenkins,22,Female,UACE certificate,2,Judicial officer,Confidence ,Lawyer
+Lucas Powell,28,Male,Bachelor's,3,Software Engineer,Programming and analytical thinking,Software Engineer
+Mia Simmons,28,Male,Bachelor's,3,Researcher ,Data Analysis,Quantitative Economist
+Benjamin Price,22,Female,Bachelor's,1,Hotel manager,RECORD KEEPING ,Receptionist
+Liam King,28,Male,Bachelor's,2,Real estate developer,Sales ,Real Estate developer
+Sophia Griffin,22,Female,Bachelor's,2,Receptionist,Interpersonal skills,Receptionist
+Noah Wood,22,Male,Bachelor's,2,Software engineer ,Communication,Software engineer
+Ella Ramirez,28,Female,Bachelor's,1,Lecturer,Accuracy ,High school teacher
+William Simmons,28,Female,Bachelor's,1,LAWYER ,Legal skills,Lecturer
+Olivia Ward,22,Female,Bachelor's,3,Accountant,Mathematical skills,Financial Analyst
+Jacob Stewart,22,Male,Bachelor's,1,Financial analyst,"Maths, accounting, observation",High school teacher
+Emily Torres,28,Female,Bachelor's,2,Human resource manager,"Leadership skills 
+",Primary school teacher
+Michael Watson,28,Male,Bachelor's,1,Accountant,Operating accounting systems,Accountant
+Grace Bell,22,Male,UACE certificate,2,Judicial officer ,Oratory and research skills ,Lawyer
+Samuel Bailey,22,Female,Bachelor's,1,IT support,IT skills ,IT officer
+Zoe Rivera,35,Female,Bachelor's,1,Software developer,Technical skills ,Graphic Designer
+Henry Cooper,22,Female,Bachelor's,2,Network Engineer ,Cisco networking skills,Data analyst
+Chloe Richardson,28,Female,Bachelor's,1,Software Engineer,Technical skills ,Front-end Developer
+Alexander Cox,22,Female,Bachelor's,1,Entrepreneur,Mathematical skills,Statistician
+Victoria Ward,28,Male,Bachelor's,2,Data Scientist,"critical thinking, creativity, attention ",Software Engineer
+Daniel Foster,22,Female,Bachelor's,3,Software developer,Coding skills ,Software engineer 
+Natalie Henderson,22,Female,Bachelor's,2,Data Scientist,Communication,Data Scientist
+Matthew Bryant,22,Male,UACE certificate,1,Software engineer and crypto trader,Coding and market analysis,"Java, Rust, MoonBit and AI"
+Lily Alexander,28,Female,Bachelor's,3,Accountant,Accounting skills ,Data analyst
+Logan Carter,22,Male,UACE certificate,3,Film producer,Creativity ,Statistician
+Amelia Morris,28,Male,Bachelor's,1,Doctor,"problem solving, critical thinking",AI Researcher
+Jackson Perez,28,Female,Bachelor's,2,Human resource manager,Communication and managerial skills,Primary school teacher
+Avery Hughes,35,Female,Bachelor's,1,Project manager,"Creative thinking, managerial skills, computer skills, interpersonal skills, leadership skills, marketing skills, listening writing skills, story telling, research skills",Dancer
+Sebastian Flores,28,Female,Bachelor's,1,LAWYER ,Reading,Lawyer
+Harper Hughes,22,Male,UACE certificate,1,Economist,Communication,Economist
+Owen Long,28,Female,Bachelor's,2,Event Planner,Social skills ,Entreprenuer
+Scarlett Foster,22,Male,UACE certificate,2,Doctor,Public relations ,Pharmacist
+Gabriel Price,28,Female,Bachelor's,1,TV presenter,Communication skills ,Journalist
+Chase Bennett,28,Female,Bachelor's,2,Lecturer,Understanding ,Economist
+Samantha Ross,28,Male,Bachelor's,4,Project manager,Creativity,Project manager
+Nathan Rogers,22,Female,UACE certificate,1,LAWYER ,Hardwork,Lawyer
+Aiden Reed,28,Female,Bachelor's,1,Doctor,knowing your strengths and weaknesses ,Graphic Designer
+Sofia Brooks,35,Female,Bachelor's,3,Human resource manager,public speaking and creativity ,Accountant
+Elijah Coleman,28,Female,UACE certificate,1, Software Developer ,Problem solving ,Software engineer
+Ava Henderson,24,Male,Bachelor's,3,Data analyst,Analytical skills ,Accountant
+Caleb Perry,28,Female,Bachelor's,1,Accounting,"Acca, cpa, mba ",Accounting
+Zoey Patterson,28,Male,UACE certificate,2,A career in civil engineering ,Problem solving skills and innovation,Civil engineering 
+Isaac Bailey,22,Female,Bachelor's,3,Economist,"IT, analytical and critical thinking ",Economics 
+Evelyn Coleman,28,Male,Bachelor's,2,Civil engineer ,"Design skills, problem solving",Network Engineer
+Megan Fisher,28,Female,Bachelor's,2,ADR Litigator,Networking skills and reading skills,Lawyer
+Evan Ramirez,35,Female,Master's,1,Psychologist,"Interpersonal Skills, Communication Skills, Counseling Skills ",Volunteer
+Landon Carter,22,Male,Bachelor's,3,Accountant,Computer skills,Sales manager
+Hannah Rivera,22,Male,UACE certificate,2,Surgeon,Persistence ,Nurse
+Connor Brooks,28,Female,Bachelor's,1,Project manager, management skills,Web Developer
+Aaliyah Perry,28,Female,Bachelor's,3,Public health officer,"Team work, Research skills, Program Evaluation skills",Public Health officer
+Brandon Hayes,28,Male,UACE certificate,2,DevOps Engineer,computer related skills,software engineer
+Sydney Coleman,28,Female,Bachelor's,1,psychologist ,Communication empowerment and leadership skills ,Volunteer
+Dylan Bennett,22,Female,Bachelor's,1,Software Developer,Programing skills,Software engineer
+Avery Sanders,28,Male,UACE certificate,3,doctor ,Interpersonal communication ,Psychologist
+Chase Morgan,22,Male,UACE certificate,1,IT officer,Communication skills ,Career guidance counselor
+Sienna Price,22,Male,Bachelor's,3,Data analyst,Data analysis ,Statistician
+Hunter Patterson,36,Male,Bachelor's,1,Project manager,"Critical thinking , cinematography, photography, interpersonal and negotiation.",Volunteer
+Riley Murphy,28,Male,UACE certificate,2,Lawyer ,"Drafting documents, research skills, trial advocacy and communication skills",Lawyer
+Madeline Jenkins,22,Female,UACE certificate,3,Economist,Communication skills,Economist
+Adrian Collins,28,Female,Bachelor's,3,IT support,Computer ,IT officer
+Sophie Gray,28,Female,UACE certificate,1,Musician,Creativity,Musician
+Jordan Long,28,Male,Bachelor's,2,Graphics designer,Content Creation,Graphic Designer
+Brianna Foster,22,Female,Bachelor's,2,Human resource manager,"Communication 
+Writing 
+Research based skills generally ",Human resource manager
+Zane Powell,28,Male,Bachelor's,2, software engineer ,"Coding skills, problem solving, adapting skills",DevOps Engineer
+Molly Jenkins,35,Male,Bachelor's,1,Film Maker,Planning ,Fim Maker
+Austin Rivera,28,Female,UACE certificate,1,Human resource manager,Practical skills,Project manager
+Paige Rogers,28,Male,Bachelor's,3,Accountant,Analytical ,Accountant
+Cole Barnes,22,Female,Bachelor's,1,Project manager,"Programming skills, database, communication skills",Software Engineer
+Leah Butler,22,Female,UACE certificate,2,Electrical Engineer,"CAD 
+Data analysis",Civil Engineer
+Carter Brooks,22,Female,Bachelor's,1,cyber security officer,Coding ,Data Scientist
+Eleanor Morris,28,Female,Master's,2,Data analyst,Computer skills,Project manager
+Miles Rogers,28,Female,Bachelor's,1,Aerospace engineer,"Mechanics, Computer skills, aeronautics",Computer engineer
+Lucy Howard,22,Female,Bachelor's,1,Financial Analyst,"Technical skills,data analysis,excel proficiency",Accountant
+Hunter Price,35,Male,Bachelor's,2,Project manager,"Interpersonal skills, Computer skills, Teamwork, Adaptability, Leadership ",Economist
+Naomi Wright,36,Male,Bachelor's,1,Financial Analyst,Financial Reporting skills ,Financial Analyst
+Brandon Wood,28,Female,Bachelor's,1,Pharmacist,Interpersonal skills,Nurse
+Autumn Baker,36,Male,Master's,2,Financial analyst,"Communication,",Executive masters-Finance & Entrepreneurship
+Grayson James,22,Male,UACE certificate,3,Software Engineer,programming,Software Engineer
+Mackenzie Perry,22,Female,Bachelor's,2,Data Scientist,Technical,Software Engineer
+Jason Simmons,22,Male,Bachelor's,1,Data analyst,Computational skills,Computer engineer
+Elena Coleman,28,Female,Bachelor's,3,Architect,Creativity ,Architect
+Tyler Carter,22,Male,UACE certificate,3,LAWYER ,Networking skills,Lawyer
+Ruby Mitchell,22,Female,Bachelor's,1,Software developer ,"Programming skills, database, communication skills",Data Scientist
+Declan Adams,28,Female,Bachelor's,2,Hotel manager,"leadership skills and communication skills
+",Human Resource Manager
+Lydia Edwards,22,Female,Bachelor's,1,IT officer,Computer skills,IT officer
+John Doe,28,Male,Bachelor's,1,Data Scienitist,"Python, Data Analysis, Machine Learning",Data Scientist
+Jane Smith,32,Female,Master's,5,Software Developer,"Java, System Design' Cloud Computing",Software Engineer
+Bob Johnson,24,Male,Bachelor's,2,Digital Marketer,"Graphic Design, UI/UX, Adobe Creative Suite",UX Designer
+Emily Davis,26,Female,Bachelor's,2,AI reasercher,"Python, Deep Learning, Statistics",AI Researcher
+Michael Brown,30,Male,Master's,6,Project manager,"Project Management' Communication, Agile",Project Manager
+Sarah Wilson,27,Female,Bachelor's,2,Software Engineer,"C++, Embedded Systems, IoT",Embedded Systems Engineer
+David Lee,35,Male,Master's,5,Financial Analyst,"SQL,Data Warehousing, ETL",Data Analyst
+Laura Martinez,29,Female,Bachelor's,1,Human resource manager,"Content Writing, SEO, Social Media",Digital Marketer
+Kevin White,31,Male,Bachelor's,4,Data Analyst,"Python, Natural Language Processing, Machine Learning",NLP Engineer
+Karen Thompson,33,Female,Master's,5,Data Analyst,"Financial Analysis, Excel, Economics",Financial Analyst
+Richard Anderson,40,Male,PhD,8,Lecturer,"Research, Statistical Analysis, Python",Research Scientist
+Jessica Taylor,22,Female,Bachelor's,3,Web Developer,"HTML, CSS, javaScript",Front-end Developer
+Daniel Moore,26,Male,Bachelor's,1,Software Engineer,"Java, Algorithms,Data Structures",Software Developer
+Olivia Jackson,28,Female,Master's,2,Statistician ,"Data Visualization, Python, R",Data Analyst
+William Martin,34,Male,Master's,5,Software developer,"Machine Learning, Big Data, Python",Machine Learning Engineer
+Sophia Lee,30,Female,Bachelor's,4,Content creator,"Digital Marketing, Content Creation, SEO",Digital Marketer
+James Perez,29,Female,Bachelor's,2,Financial Analyst,"Python, Data Mining, Statistics",Data Scientist
+Ava Thompson,25,Female,Bachelor's,1,Software engineer,"C#, NET, Software Design",Software Developer
+Henry Gonzalez,31,Male,Master's,4,Project manager,"Project Management, Risk Analysis, Negotiation",Project Manager
+Mia Robinson,27,Female,Bachelor's,2,Front-end developer,"User Research, UX Design, Prototyping",UX Designer
+Ethan Clark,24,Male,Bachelor's,1,Financial Analyst,"Python, Data Analysis, SQL",Data Analyst
+Isabella Rodriguez,28,Female,Master's,3,Entrepreneur,"Marketing Strategy, Digital Marketing, CRM",Marketing Manager
+Liam Lewis,26,Male,Bachelor's,2,Web Developer,"JavaScript, React, Node.js",Full Stack Developer
+Chloe Walker,32,Female,Master's,1,AI reasercher,"Data Science, Machine Learning, Python",AI Specialist
+Noah Hall,35,Male,Bachelor's,1,Cybersecurity officer,"Network Security, Linux, Python",Cybersecurity Analyst
+Emma Allen,29,Male,Master's,3,Lecturer,"Python, Statistics, Data Mining",Research Analyst
+Mason Young,33,Male,Bachelor's,1,Entrepreneur,"Cloud Computing, DevOps, Python",DevOps Engineer
+Harper King,27,Male,Bachelor's,3,Digital Marketer,"Content Creation, Graphic Design, Adobe Photoshop",Graphic Designer
+Lucas Wright,31,Male,Master's,5,AI engineer,"Python, TensorFlow, Deep Learning",Deep Learning Engineer
+Amelia Scott,26,Female,Bachelor's,2,Data analyst,"SQL, Data Warehousing, R",Business Analyst
+Oliver Green,30,Female,Master's,3,Software Engineer,"Java, Spring, Microservices",Backend Developer
+Grace Baker,24,Female,Bachelor's,3,Web Developer,"HTML, CSS, JavaScript, UX",Front-end Developer
+Elijah Adams,28,Male,Master's,1,Data Scientist,"Machine Learning, R, Python",Biostatistician
+Lily Nelson,29,Female,Bachelor's,2,Graphics designer,"Digital Illustration, Adobe Illustrator, Creativity",Graphic Designer
+Benjamin Carter,34,Male,Master's,5,Financial analyst,"Python, Big Data, Machine Learning",Data Engineer
+Ella Mitchell,27,Female,Bachelor's,2,Digital Marketer,"Copywriting, SEO, Social Media",Content Strategist
+Sebastian Perez,30,Male,Master's,5,Data Analyst,"Python, JavaScript, Data Visualization",Data Analyst
+Victoria Roberts,32,Female,Bachelor's,1,Financial analyst,"Business Analysis, Excel, SQL",Business Analyst
+Jack Turner,28,Male,Bachelor's,3,Software engineer,"Python, Automation, Data Analysis",Automation Engineer
+Aria Phillips,25,Male,Bachelor's,1,Digital Marketer,"Graphic Design, UX/UI, Adobe XD",UX Designer
+Samuel Campbell,33,Male,Master's,2,Software developer,"Python, Machine Learning, AI",Machine Learning Engineer
+Zoe Parker,26,Female,Bachelor's,1,Digital Marketer,"Digital Marketing, Analytics, SEO",Digital Marketer
+Adam Evans,29,Male,Master's,2,Data Scientist,"Python, Data Analysis, R",Financial Analyst
+Natalie Edwards,27,Female,Bachelor's,1,Digital Marketer,"Content Writing, Storytelling, SEO",Content Strategist
+Aaron Collins,31,Male,Bachelor's,4,Mobile developer,"Java;Android, UI Design",Mobile Developer
+Scarlett Stewart,28,Female,Master's,2,UX Designer,"UX Research, Prototyping, Interaction Design",UX Researcher
+Isaiah Sanchez,30,Male,Bachelor's,1,Cybersecurity officer,"Python, Cybersecurity, Network Security",Cybersecurity Specialist
+Nora Morris,25,Female,Bachelor's,1,Financial analyst,"SQL, Data Analysis, Excel",Data Analyst
+Julian Rogers,33,Female,Master's,4,DevOps Engineer,"Cloud Computing, Python, DevOps",Cloud Engineer
+Stella Reed,27,Female,Bachelor's,3,Graphics designer,"Graphic Design, Illustration, Adobe Creative Suite",Graphic Designer
+Owen Parker,32,Male,Bachelor's,2,Financial analyst,"Python, Data Analysis, SQL",Data Analyst
+Chase Murphy,27,Male,Bachelor's,1,Software Engineer,Java;Spring;Microservices,Backend Developer
+Aiden Cooper,30,Male,Master's,5,AI specialist,Python;Machine Learning;TensorFlow,Machine Learning Engineer
+Zachary Reed,26,Male,Bachelor's,3,Web Developer,HTML;CSS;JavaScript,Front-end Developer
+Madison Flores,29,Female,Master's,1,Digital Marketer,Digital Marketing;SEO;Content Strategy,Digital Marketer
+Ethan Brooks,31,Male,Bachelor's,2,Financial analyst,SQL;Data Warehousing;ETL,Data Analyst
+Ava Jenkins,25,Female,Bachelor's,1,Graphics designer,Graphic Design;Illustration;Adobe Illustrator,Graphic Designer
+Lucas Powell,34,Male,Master's,4,AI specialist,Python;NLP;Deep Learning,NLP Engineer
+Mia Simmons,27,Female,Bachelor's,1,Lecturer,Research;Statistical Analysis;R,Research Scientist
+Benjamin Price,32,Male,Master's,2,Entrepreneur,Project Management;Agile;Communication,Project Manager
+Liam King,28,Male,Bachelor's,2,Automation engineer,C++;Embedded Systems;IoT,Embedded Systems Engineer
+Sophia Griffin,29,Female,Master's,1,Statistician ,Python;Data Visualization;R,Data Analyst
+Noah Wood,30,Male,Bachelor's,4,Software Developer,Java;Algorithms;Data Structures,Software Developer
+Ella Ramirez,26,Female,Bachelor's,4,UX Designer,UX Research;Prototyping;Interaction Design,UX Researcher
+William Simmons,33,Male,Master's,6,Data Scientist,Cloud Computing;DevOps;Python,DevOps Engineer
+Olivia Ward,27,Female,Bachelor's,1,Digital Marketer,Digital Marketing;Analytics;SEO,Digital Marketer
+Jacob Stewart,31,Male,Bachelor's,5,Game developer ,C#;.NET;Software Design,Software Developer
+Emily Torres,29,Female,Master's,4,Data analyst,Financial Analysis;Excel;Econometrics,Financial Analyst
+Michael Watson,35,Male,PhD,4,Lecturer,Research;Statistical Analysis;Python,Research Scientist
+Grace Bell,24,Female,Bachelor's,1,Web Developer,HTML;CSS;JavaScript;UX,Front-end Developer
+Samuel Bailey,28,Male,Master's,2,Data Scientist,Machine Learning;R;Python,Biostatistician
+Zoe Rivera,29,Female,Bachelor's,3,Digital Marketer,Content Writing;Storytelling;SEO,Content Strategist
+Henry Cooper,34,Male,Master's,2,Financial analyst,Python;Big Data;Machine Learning,Data Engineer
+Chloe Richardson,27,Female,Bachelor's,2,Graphics designer,Digital Illustration;Adobe Illustrator;Creativity,Graphic Designer
+Alexander Cox,30,Male,Bachelor's,1,Financial analyst,Python;Data Mining;Statistics,Data Scientist
+Victoria Ward,26,Female,Master's,3,Financial analyst,Business Analysis;Excel;SQL,Business Analyst
+Daniel Foster,28,Male,Bachelor's,2,Software engineer,Python;Automation;Data Analysis,Automation Engineer
+Natalie Henderson,25,Female,Bachelor's,1,Content creator,Copywriting;SEO;Social Media,Content Strategist
+Matthew Bryant,31,Male,Bachelor's,5,Mobile developer,Java;Android;UI Design,Mobile Developer
+Lily Alexander,28,Female,Master's,2,Software developer,Python;Machine Learning;AI,Machine Learning Engineer
+Logan Carter,30,Male,Bachelor's,5,Data analyst,SQL;Data Analysis;Excel,Data Analyst
+Amelia Morris,27,Female,Master's,2,Digital Marketer,Marketing Strategy;Digital Marketing;CRM,Marketing Manager
+Jackson Perez,29,Male,Bachelor's,3,Web developer,JavaScript;React;Node.js,Full Stack Developer
+Avery Hughes,32,Male,Master's,1,AI specialist,Data Science;Machine Learning;Python,AI Specialist
+Sebastian Flores,35,Male,Bachelor's,3,Cybersecurity officer,Network Security;Linux;Python,Cybersecurity Analyst
+Harper Hughes,29,Male,Master's,1,Lecturer,Python;Statistics;Data Mining,Research Analyst
+Owen Long,33,Male,Bachelor's,4,Software developer,Cloud Computing;Python;DevOps,Cloud Engineer
+Scarlett Foster,27,Male,Bachelor's,3,Graphics designer,Graphic Design;Illustration;Adobe Creative Suite,Graphic Designer
+Gabriel Price,30,Male,Master's,3,Financial analyst,Python;Data Analysis;SQL,Data Analyst
+Chase Bennett,28,Male,Bachelor's,5,Software developer,Java;System Design;Cloud Computing,Software Engineer
+Samantha Ross,32,Female,Master's,2,AI specialist,Python;Deep Learning;Statistics,AI Researcher
+Nathan Rogers,30,Male,Bachelor's,2,Entrepreneur,Project Management;Communication;Agile,Project Manager
+Aiden Reed,26,Male,Bachelor's,4,Automation engineer,C++;Embedded Systems;IoT,Embedded Systems Engineer
+Sofia Brooks,28,Female,Master's,3,Financial analyst,SQL;Data Warehousing;ETL,Data Analyst
+Elijah Coleman,35,Male,Bachelor's,8,Web developer,HTML;CSS;JavaScript,Front-end Developer
+Ava Henderson,29,Female,Master's,3,Marketing manager,Digital Marketing;SEO;Content Creation,Digital Marketer
+Caleb Perry,27,Male,Bachelor's,3,Software engineer,Python;Natural Language Processing;Machine Learning,NLP Engineer
+Zoey Patterson,31,Female,Master's,2,Financial analyst,Financial Analysis;Excel;Econometrics,Financial Analyst
+Isaac Bailey,40,Male,PhD,8,AI specialist,Research;Statistical Analysis;Python,Research Scientist
+Evelyn Coleman,22,Female,Bachelor's,2,Web developer,HTML;CSS;JavaScript,Front-end Developer
+Megan Fisher,23,Female,Master's,1,Data Scientist,Python;Data Analysis;Machine Learning,Data Scientist
+Evan Ramirez,24,Male,PhD,1,Software developer,Java;System Design;Cloud Computing,Software Engineer
+Landon Carter,25,Male,Bachelor's,2,Digital Marketer,Graphic Design;UI/UX;Adobe Creative Suite,UX Designer
+Hannah Rivera,26,Female,Master's,3,Doctor,HTML;CSS;JavaScript,AI Researcher
+Connor Brooks,27,Male,PhD,3,Entrepreneur,C++;Embedded Systems;IoT,Project Manager
+Aaliyah Perry,28,Female,Bachelor's,3,Financial analyst,SQL;Data Warehousing;ETL,Embedded Systems Engineer
+Brandon Hayes,29,Male,Master's,3,Digital Marketer,JavaScript;React;Node.js,Data Analyst
+Sydney Coleman,30,Female,PhD,3,Cybersecurity officer,Digital Marketing;SEO;Content Creation,Digital Marketer
+Dylan Bennett,31,Male,Bachelor's,5,AI reasercher,Project Management;Agile;Communication,NLP Engineer
+Avery Sanders,32,Male,Master's,5,Web developer,Python;Deep Learning;Statistics,Financial Analyst
+Chase Morgan,33,Male,PhD,4,Data Sceientist,Financial Analysis;Excel;Econometrics,Research Scientist
+Sienna Price,34,Female,Bachelor's,5,Software developer,Research;Statistical Analysis;Python,Front-end Developer
+Hunter Patterson,35,Male,Master's,5,Digital Marketer,Cloud Computing;DevOps;Python,Software Developer
+Riley Murphy,36,Male,PhD,6,Doctor,Java;Algorithms;Data Structures,Data Analyst
+Madeline Jenkins,37,Female,Bachelor's,5,Entrepreneur,UX Research;Prototyping;Interaction Design,Machine Learning Engineer
+Adrian Collins,38,Male,Master's,6,Financial analyst,Copywriting;SEO;Social Media,Digital Marketer
+Sophie Gray,39,Female,PhD,2,Digital Marketer,Network Security;Linux;Python,Data Scientist
+Jordan Long,40,Male,Bachelor's,6,Cybersecurity officer,C#;.NET;Software Design,Software Developer
+Brianna Foster,41,Male,Master's,1,AI reasercher,Data Visualization;Python;R,Project Manager
+Zane Powell,22,Female,PhD,2,Web developer,Machine Learning;Big Data;Python,UX Designer
+Molly Jenkins,23,Female,Bachelor's,3,Data Scientist,Python;Data Analysis;Machine Learning,Data Analyst
+Austin Rivera,24,Male,Master's,1,Software developer,Java;System Design;Cloud Computing,Marketing Manager
+Paige Rogers,25,Female,PhD,2,Digital Marketer,Graphic Design;UI/UX;Adobe Creative Suite,Full Stack Developer
+Cole Barnes,26,Male,Bachelor's,3,AI reasercher,HTML;CSS;JavaScript,AI Specialist
+Leah Butler,27,Female,Master's,1,Entrepreneur,C++;Embedded Systems;IoT,Cybersecurity Analyst
+Carter Brooks,28,Male,PhD,3,Financial analyst,SQL;Data Warehousing;ETL,Research Analyst
+Eleanor Morris,29,Female,Bachelor's,5,Marketing manager,JavaScript;React;Node.js,DevOps Engineer
+Miles Rogers,30,Male,Master's,6,Cybersecurity officer,Digital Marketing;SEO;Content Creation,Graphic Designer
+Lucy Howard,31,Female,PhD,3,Lecturer,Project Management;Agile;Communication,Deep Learning Engineer
+Hunter Price,32,Male,Bachelor's,2,Web developer,Python;Deep Learning;Statistics,Business Analyst
+Naomi Wright,23,Female,Master's,2,Data Scientist,Financial Analysis;Excel;Econometrics,Backend Developer
+Brandon Wood,34,Male,PhD,6,Software developer,Research;Statistical Analysis;Python,Front-end Developer
+Autumn Baker,35,Male,Bachelor's,3,Digital Marketer,Cloud Computing;DevOps;Python,Biostatistician
+Grayson James,36,Female,Master's,6,AI specialist,Java;Algorithms;Data Structures,Graphic Designer
+Mackenzie Perry,37,Male,PhD,6,Entrepreneur,UX Research;Prototyping;Interaction Design,Data Engineer
+Jason Simmons,38,Male,Bachelor's,7,Financial analyst,Copywriting;SEO;Social Media,Content Strategist
+Elena Coleman,39,Female,Master's,5,Digital Marketer,Network Security;Linux;Python,Data Analyst
+Tyler Carter,40,Male,PhD,7,Cybersecurity officer,C#;.NET;Software Design,Business Analyst
+Ruby Mitchell,41,Female,Bachelor's,1,AI reasercher,Data Visualization;Python;R,Automation Engineer
+Declan Adams,22,Male,Master's,3,Web developer,Machine Learning;Big Data;Python,UX Designer
+Lydia Edwards,23,Female,PhD,1,Data Scientist,Python;Data Analysis;Machine Learning,Machine Learning Engineer
+Eric Hughes,24,Male,Bachelor's,3,Software developer,Java;System Design;Cloud Computing,Digital Marketer
+Melanie Nelson,25,Female,Master's,1,Digital Marketer,Graphic Design;UI/UX;Adobe Creative Suite,Financial Analyst
+Julian Wright,26,Female,PhD,2,Pharmacist,HTML;CSS;JavaScript,Content Strategist
+Arianna Brooks,27,Female,Bachelor's,3,Entrepreneur,C++;Embedded Systems;IoT,Mobile Developer
+Cooper Bell,28,Male,Master's,3,Financial analyst,SQL;Data Warehousing;ETL,UX Researcher
+Faith Parker,29,Female,PhD,1,Human resource manager,JavaScript;React;Node.js,Cybersecurity Specialist
+Maximillian Reed,30,Female,Bachelor's,6,Cybersecurity officer,Digital Marketing;SEO;Content Creation,Data Analyst
+Sadie Turner,31,Female,Master's,4,AI reasercher,Project Management;Agile;Communication,Cloud Engineer
+Jaxon Carter,32,Male,PhD,5,Web developer,Python;Deep Learning;Statistics,Graphic Designer
+Isabel Rivera,23,Female,Bachelor's,1,Data Scientist,Financial Analysis;Excel;Econometrics,Data Scientist
+Carson Flores,24,Male,Master's,1,Software developer,Research;Statistical Analysis;Python,Software Engineer
+Katherine Collins,25,Female,PhD,2,Digital Marketer,Cloud Computing;DevOps;Python,UX Designer
+Leo Morgan,26,Male,Bachelor's,3,Pharmacist,Java;Algorithms;Data Structures,AI Researcher
+Ariella Perry,37,Female,Master's,5,Project manager,UX Research;Prototyping;Interaction Design,Project Manager
+Ryder Murphy,38,Male,PhD,7,Financial analyst,Copywriting;SEO;Social Media,Embedded Systems Engineer
+Elise Bennett,39,Female,Bachelor's,7,Human resource manager,Network Security;Linux;Python,Data Analyst
+Cameron Reed,40,Male,Master's,8,Cybersecurity officer,C#;.NET;Software Design,Digital Marketer
+Jasmine Edwards,41,Female,PhD,7,Lecturer,Data Visualization;Python;R,NLP Engineer
+Parker Jenkins,22,Male,Bachelor's,1,Web developer,Machine Learning;Big Data;Python,Financial Analyst
+Nicole Hughes,23,Female,Master's,11,Data Scientist,Python;Data Analysis;Machine Learning,Research Scientist
+Brady Price,24,Male,PhD,1,Software developer,Java;System Design;Cloud Computing,Front-end Developer
+Clara Ross,25,Female,Bachelor's,2,Digital Marketer,Graphic Design;UI/UX;Adobe Creative Suite,Software Developer
+Silas Murphy,26,Male,Master's,3,Surgeon,HTML;CSS;JavaScript,Data Analyst
+Paisley Rogers,27,Female,PhD,5,Project manager,C++;Embedded Systems;IoT,Machine Learning Engineer
+Miles Foster,28,Male,Bachelor's,5,Financial analyst,SQL;Data Warehousing;ETL,Digital Marketer
+Jade Wood,29,Male,Master's,4,Digital Marketer,JavaScript;React;Node.js,Data Scientist
+Weston Perry,30,Male,PhD,3,Cybersecurity officer,Digital Marketing;SEO;Content Creation,Software Developer
+Aubrey Jenkins,31,Male,Bachelor's,4,Lecturer,Project Management;Agile;Communication,Project Manager
+Harrison Collins,32,Male,Master's,7,Web developer,Python;Deep Learning;Statistics,UX Designer
+Luna Gray,33,Female,PhD,4,Data Scientist,Financial Analysis;Excel;Econometrics,Data Analyst
+Gavin Long,34,Male,Bachelor's,5,Software developer,Research;Statistical Analysis;Python,Marketing Manager
+Penelope Foster,35,Female,Master's,5,Digital Marketer,Cloud Computing;DevOps;Python,Full Stack Developer
+Austin Powell,36,Male,PhD,5,Surgeon,Java;Algorithms;Data Structures,AI Specialist
+Vivian Butler,37,Female,Bachelor's,4,Entrepreneur,UX Research;Prototyping;Interaction Design,Cybersecurity Analyst
+Xavier Barnes,38,Male,Master's,2,Financial analyst,Copywriting;SEO;Social Media,Research Analyst
+Stella James,39,Female,PhD,3,Digital Marketer,Network Security;Linux;Python,DevOps Engineer
+Caden Morgan,40,Male,Bachelor's,4,Cybersecurity officer,C#;.NET;Software Design,Graphic Designer
+Maya Ross,41,Female,Master's,4,AI reasercher,Data Visualization;Python;R,Deep Learning Engineer
+Jace Reed,22,Male,PhD,2,Web developer,Machine Learning;Big Data;Python,Business Analyst
+Kendall Rivera,23,Female,Bachelor's,3,Data Scientist,Python;Data Analysis;Machine Learning,Backend Developer
+Rylan Perry,24,Male,Master's,2,Software developer,Java;System Design;Cloud Computing,Front-end Developer
+Adalyn Jenkins,25,Male,PhD,1,Digital Marketer,Graphic Design;UI/UX;Adobe Creative Suite,Biostatistician
+Zion Collins,26,Male,Bachelor's,4,Dentist,HTML;CSS;JavaScript,Graphic Designer
+Emery Gray,27,Male,Master's,5,Entrepreneur,C++;Embedded Systems;IoT,Data Engineer
+Nolan Long,28,Female,PhD,4,Finanacial analyst,SQL;Data Warehousing;ETL,Content Strategist
+Ivy Foster,29,Female,Bachelor's,3,Marketing manager,JavaScript;React;Node.js,Data Analyst
+Tristan Powell,30,Male,Master's,3,Cybersecurity officer,Digital Marketing;SEO;Content Creation,Business Analyst
+Olivia Butler,31,Female,PhD,3,AI reasercher,Project Management;Agile;Communication,Automation Engineer
+Damian Barnes,32,Male,Bachelor's,4,Web developer,Python;Deep Learning;Statistics,UX Designer
+Sienna James,33,Female,Master's,5,Data Scientist,Financial Analysis;Excel;Econometrics,Machine Learning Engineer
+Jasper Morgan,34,Male,PhD,4,Software developer,Research;Statistical Analysis;Python,Digital Marketer
+Eleanor Ross,35,Female,Bachelor's,1,Digital Marketer,Cloud Computing;DevOps;Python,Financial Analyst
+Ezra Reed,36,Male,Master's,5,Dentist,Java;Algorithms;Data Structures,Content Strategist
+Lola Rivera,37,Female,PhD,3,Entrepreneur,UX Research;Prototyping;Interaction Design,Mobile Developer
+Easton Perry,38,Male,Bachelor's,4,Financial analyst,Copywriting;SEO;Social Media,UX Researcher
+Aurora Jenkins,39,Female,Master's,2,Digital Marketer,Network Security;Linux;Python,Cybersecurity Specialist
+Camden Collins,40,Male,PhD,5,Cybersecurity officer,C#;.NET;Software Design,Data Analyst
+Hazel Gray,41,Female,Bachelor's,4,Lecturer,Data Visualization;Python;R,Cloud Engineer
+Micah Long,22,Male,Master's,3,Web developer,Machine Learning;Big Data;Python,Graphic Designer
+Alice,25,Female,Bachelor's,2,Software developer,"Python, SQL, Django",Software engineer
+Bob Johnson,28,Male,Master's,5,Data Scientist,"Python, SQL, Machine learning",Data Scientist
+Charlie,30,Female,PhD,7,AI reasercher,"Python, SQL, Machine learning",AI Researcher
+John Doe,28,Male,Bachelor's ,5,Software Engineer,"JavaScript, React, Node.js, SQL",Full Stack Developer
+Alice Smith,25,Female,Master's ,3,AI Engineer,"Python, Machine Learning, TensorFlow",Data Engineer
+Michael Lee,32,Male,Bachelor's ,8,Marketing Manager,"SEO, Digital Marketing, Social Media",Digital Marketer
+Sarah Kim,29,Female,PhD ,6,Research Scientist,"Data Analysis, Biostatistics, Research",Biostatistician
+David Chan,27,Male,Bachelor's ,4,AI Researcher,"Python, Deep Learning, NLP",Machine Learning Engineer
+Jane Brown,26,Female,Bachelor's ,2,Graphic Designer,"Photoshop, Illustrator, UI/UX Design",UX Designer
+Robert Wu,35,Male,Bachelor's ,10,Financial Analyst,"Accounting, Excel, Financial Modeling",Economist
+Emma Lopez,23,Female,Diploma's,1,Pediatric Nurse,"Patient Care, Emergency Response, Communication",Pediatric Nurse
+Mark Evans,30,Male,Master's ,7,Cybersecurity Expert,"Ethical Hacking, Network Security, Encryption",Cybersecurity Analyst
+Olivia Carter,24,Female,Bachelor's,2,Web Developer,"HTML, CSS, JavaScript, React",Front-End Developer
+Daniel Green,31,Male,Bachelor's,8,Automation Engineer,"Robotics, IoT, PLC Programming",Control Systems Engineer
+Laura Hill,27,Female,Master's ,5,HR Manager,"Communication, Leadership, Talent Management",Human Resource Manager
+John Doe,28,Male,Bachelor's ,5,Software Engineer,"JavaScript, React, Node.js, SQL",Full Stack Developer
+Alice Smith,25,Female,Master's ,3,AI Engineer,"Python, Machine Learning, TensorFlow",Data Engineer
+Michael Lee,32,Male,Bachelor's ,8,Marketing Manager,"SEO, Digital Marketing, Social Media",Digital Marketer
+Sarah Kim,29,Female,PhD ,6,Research Scientist,"Data Analysis, Biostatistics, Research",Biostatistician
+David Chan,27,Male,Bachelor's ,4,AI Researcher,"Python, Deep Learning, NLP",Machine Learning Engineer
+Jane Brown,26,Female,Bachelor's ,2,Graphic Designer,"Photoshop, Illustrator, UI/UX Design",UX Designer
+Robert Wu,35,Male,Bachelor's ,10,Financial Analyst,"Accounting, Excel, Financial Modeling",Economist
+Emma Lopez,23,Female,Diploma's,1,Pediatric Nurse,"Patient Care, Emergency Response, Communication",Pediatric Nurse
+Mark Evans,30,Male,Master's,7,Cybersecurity Expert,"Ethical Hacking, Network Security, Encryption",Cybersecurity Analyst
+Olivia Carter,24,Female,Bachelor's,2,Web Developer,"HTML, CSS, JavaScript, React",Front-End Developer
+Daniel Green,31,Male,Bachelor's ,8,Automation Engineer,"Robotics, IoT, PLC Programming",Control Systems Engineer
+Laura Hill,27,Female,Master's ,5,HR Manager,"Communication, Leadership, Talent Management",Human Resource Manager
+Ryan Adams,29,Male,Bachelor's ,4,Judicial Officer,"Legal Research, Public Speaking, Case Analysis",Judicial Officer
+Sophia White,26,Female,Master's,3,Public Health Officer,"Epidemiology, Policy Development, Research",Public Health Officer
+James Ford,34,Male,Bachelor's ,12,Pilot,"Flight Control, Navigation, Aircraft Maintenance",Aviation Officer
+Lily Thompson,28,Female,Bachelor's ,5,Film Producer,"Directing, Scriptwriting, Editing",Film Maker
+Ethan Wilson,30,Male,Bachelor's,7,Oil & Gas Engineer,"Drilling, Reservoir Engineering, Safety",Petroleum Engineer
+Chloe Baker,25,Female,Bachelor's,3,Sales Manager,"Customer Relations, Negotiation, Sales Strategy",Sales Representative
+Benjamin Ross,27,Male,Bachelor's ,4,Musician,"Composition, Instrument Playing, Performance",Musician
+Natalie Reed,29,Female,Master's ,5,Statistician,"Data Analysis, R, Probability",Statistician
+Christopher Diaz,33,Male,PhD,10,Neurosurgeon,"Surgery, Neurology, Research",Neurosurgeon
+Amanda Scott,26,Female,Bachelor's ,3,Architect,"CAD, Structural Design, Urban Planning",Architect
+Henry Carter,31,Male,Bachelor's ,9,Electrical Engineer,"Circuit Design, Power Systems, Automation",Electrical Engineer
+Victoria Hall,24,Female,Bachelor's,2,Content Strategist,"Writing, Marketing, SEO",Content Creator
+Jack Morgan,27,Male,Bachelor's ,4,Architect,"Translation, Language Processing, Research",Linguist
+Emily Watson,28,Female,Master's ,6,Automation Engineer,"Natural Language Processing, Python, AI",NLP Engineer
+Noah Sanchez,32,Male,Bachelor's ,8,Real Estate Developer,"Market Analysis, Property Management",Real Estate Developer
+Grace Brown,23,Female,Diploma's,1,Nurse,"Patient Care, First Aid, Communication",Caregiver
+William King,29,Male,Bachelor's ,5,Industrial Chemist,"Chemical Analysis, Lab Work, Manufacturing",Industrial Chemist
+Thomas Miller,34,Male,PhD ,10,AI Researcher,"Deep Learning, Python, TensorFlow",AI Engineer
+Mia Johnson,26,Female,Bachelor's,3,UX Designer,"UI/UX, Adobe XD, Figma",Graphic Designer
+Lucas Perez,30,Male,Bachelor's ,6,Software Developer,"Java, Spring Boot, Microservices",Back-End Developer
+Ava Mitchell,25,Female,Bachelor's ,4,Economist,"Market Research, Financial Analysis",Economist
+Ethan Clark,28,Male,Bachelor's ,6,Software developer,"Microcontrollers, C++, PCB Design",Embedded Systems Engineer
+Zoe Hernandez,29,Female,Master's ,7,Research Scientist,"Lab Techniques, Bioinformatics, Data Analysis",Bioinformatician
+Logan Adams,32,Male,Bachelor's ,9,DevOps Engineer,"Kubernetes, Docker, AWS, CI/CD",DevOps Engineer
+Charlotte Lee,27,Female,Bachelor's,5,Digital Marketer,"SEO, Google Ads, Social Media Strategy",Digital Marketer
+Mason Brown,26,Male,Master's ,4,Data Scientist,"Python, Machine Learning, SQL",Data Engineer
+Lily Thompson,24,Female,Bachelor's ,2,Pediatric Nurse,"Patient Care, Pediatrics, Emergency Response",Pediatric Nurse
+Henry Walker,35,Male,PhD ,12,Automation Engineer,"Robotics, AI, PLC Programming",Automation Engineer
+Ellie Turner,29,Female,Bachelor's ,6,Cybersecurity Analyst,"Ethical Hacking, Network Security, Pen Testing",Cybersecurity Analyst
+Dylan Carter,31,Male,Bachelor's ,8,Financial Analyst,"Business Modeling, Data Analysis, Agile",Business Analyst
+Grace Howard,27,Female,Bachelor's,5,Content Creator,"Blogging, Video Editing, Writing",Content Creator
+Jackson White,33,Male,Master's ,9,NLP Engineer,"Deep Learning, TensorFlow, Computer Vision",Machine Learning Engineer
+Natalie Green,28,Female,Bachelor's ,6,Entrepreneur,"Property Management, Urban Planning",Real Estate Developer
+Oliver Martinez,30,Male,Bachelor's ,7,Electrical Engineer,"Circuit Design, Renewable Energy",Electrical Engineer
+Emily Robinson,25,Female,Master's,4,NLP Engineer,"Natural Language Processing, AI, Python",NLP Engineer
+Liam Wilson,31,Male,Bachelor's ,9,Film Producer,"Directing, Cinematography, Editing",Film Producer
+Scarlett Baker,29,Female,Bachelor's ,6,Doctor,"Health Policy, Epidemiology, Community Health",Public Health Officer
+Benjamin Allen,30,Male,Bachelor's ,7,Network Engineer,"Cisco, Firewall Security, Network Infrastructure",Network Engineer
+Harper Collins,27,Female,Bachelor's ,4,Entrepreneur,"Sales Strategy, Negotiation, CRM Software",Sales Manager
+Owen Hughes,34,Male,PhD ,11,Neurosurgeon,"Surgery, Neurology, Patient Care",Neurosurgeon
+Victoria Scott,26,Female,Bachelor's,5,Bioinformatics Specialist,"DNA Sequencing, Machine Learning, R Programming",Bioinformatician
+Elijah Brooks,32,Male,Bachelor's,9,Oil & Gas Engineer,"Drilling, Refinery Operations, Reservoir Engineering",Petroleum Engineer
+Hazel Murphy,25,Female,Bachelor's ,3,Financial Analyst,"Tax Compliance, Accounting, Financial Analysis",Taxation Officer
+Carter Reed,30,Male,Bachelor's ,7,Architect,"AutoCAD, Urban Planning, Structural Engineering",Architect
+Samantha Gray,28,Female,Bachelor's ,5,Pilot,"Performance, Composition, Instrument Proficiency",Musician
+Daniel Cooper,35,Male,Bachelor's ,12,Pilot,"Flight Navigation, Air Traffic Control, Safety",Aviation Officer
+Sophia Bennett,27,Female,Bachelor's ,5,Financial Analyst,"Financial Modeling, Investment Strategies",Economist
+Jacob Wright,30,Male,Master's ,8,Software Engineer,"Java, Python, System Design",Software Engineer
+Isabella Foster,26,Female,Bachelor's ,4,Linguist,"Creative Writing, Editing, SEO",Writer
+Matthew Parker,32,Male,PhD ,10,Civil Engineer,"Structural Analysis, AutoCAD, Urban Planning",Civil Servant
+Emily Ross,29,Female,Bachelor's ,6,Project Manager,"Recruitment, Employee Relations, HR Policies",Human Resource Manager
+Ethan Simmons,31,Male,Master's ,9,Robotics Engineer,"AI, Robotics, Machine Learning",Automation Engineer
+Ava Peterson,25,Female,Bachelor's ,3,Web Developer,"Photoshop, Illustrator, Branding",Graphic Designer
+Lucas Henderson,28,Male,Bachelor's ,6,Petroleum Engineer,"Reservoir Simulation, Drilling Operations",Petroleum Engineer
+Grace Ramirez,30,Female,Master's ,8,Full Stack Developer,"JavaScript, React, Node.js",Full Stack Developer
+Noah Cooper,29,Male,Bachelor's ,6,Film Director,"Screenwriting, Directing, Editing",Film Maker
+Charlotte Morris,24,Female,Bachelor's ,2,Pediatric Nurse,"Patient Care, Pediatrics, Emergency Response",Pediatric Nurse
+Oliver Carter,31,Male,Bachelor's ,9, Pilot,"Flight Simulation, Navigation, Aircraft Operations",Aviation Officer
+Lily Hughes,27,Female,Bachelor's ,5,Cybersecurity Analyst,"Pen Testing, Network Security, Firewalls",Cybersecurity Analyst
+Jack Mitchell,35,Male,PhD ,12,Economist,"Market Research, Data Analysis",Economist
+Zoe Turner,28,Female,Bachelor's ,6,Researcher,"DNA Sequencing, Machine Learning, R Programming",Bioinformatician
+Henry Collins,30,Male,Bachelor's ,7,Data analyst,"Business Strategy, Data Analysis, Agile",Business Analyst
+Madison Scott,25,Female,Bachelor's,3,Lecturer,"Curriculum Design, Classroom Management",Teacher
+Daniel Foster,34,Male,PhD ,11,AI Researcher,"Deep Learning, Python, TensorFlow",AI Engineer
+Scarlett Murphy,27,Female,Bachelor's ,5,Sales Manager,"Sales Strategy, Negotiation, CRM Software",Sales Manager
+Carter Brooks,32,Male,Master's ,9,Data Scientist,"Python, SQL, Machine Learning",Data Engineer
+Natalie Reed,28,Female,Bachelor's ,6,Psychologist,"Counseling, Cognitive Therapy, Research",Researcher
+Elijah Bennett,30,Male,Bachelor's,7,Control Systems Engineer,"PLC Programming, Automation, Mechatronics",Control Systems Engineer
+Violet Walker,25,Female,Bachelor's ,3,Environmentalist,"Sustainability, Pollution Control, GIS",Environmental Scientist
+Benjamin Turner,31,Male,Master's ,8,NLP Engineer,"Natural Language Processing, AI, Python",NLP Engineer
+Hazel Thompson,26,Female,Bachelor's,4,LAWYER ,"Sound Mixing, Instrumentation, Audio Engineering",Musician
+Dylan White,29,Male,Bachelor's ,6,Web Developer,"HTML, CSS, JavaScript, React",Web Developer
+Ivy Parker,27,Female,Bachelor's ,5,Judicial Officer,"Legal Research, Litigation, Advocacy",Judicial Officer
+Sebastian Ross,34,Male,PhD ,10,Biotechnologist,"Genetic Engineering, Drug Development",Biostatistician
+Layla Harris,25,Female,Bachelor's ,3,Real Estate Developer,"Property Management, Market Analysis",Real Estate Developer
+Julian Adams,31,Male,Bachelor's ,7,Biomedical Engineer,"Medical Devices, Bioelectronics",Biomedical Engineer
+Harper Allen,28,Female,Bachelor's ,5,Digital Marketer,"Social Media, SEO, Content Strategy",Digital Marketer
+Oliver Jenkins,32,Male,Bachelor's ,9,Financial Consultant,"Risk Analysis, Investment Planning",Taxation Officer
+Ellie Mitchell,26,Female,Bachelor's ,4,Entrepreneur,"Business Development, Sales, Marketing",International Business Entrepreneur
+William Carter,30,Male,Master's ,7,Electrical Engineer,"Power Systems, Circuit Design",Electrical Engineer
+Camila Bailey,27,Female,Bachelor's ,5,Linguist,"Phonetics, Translation, Language Analysis",Linguist
+Mason Rivera,29,Male,Bachelor's ,6,Surveyor,"GIS, Land Surveying, Construction Mapping",Surveyor
+Abigail Hughes,31,Female,PhD ,9,Petroleum Engineer,"Organic Chemistry, Lab Testing",Industrial Chemist
+Logan Wright,30,Male,Bachelor's ,7,IT officer,"Compliance, Risk Management, Data Security",IT Auditor
+Emma Reed,25,Female,Bachelor's,3,Public Administrator,"Policy Analysis, Government Regulations",Civil Servant
+Amelia Warren,26,Female,Bachelor's ,4,Content Strategist,"Content Planning, SEO, Copywriting",Content Strategist
+Nathan Bell,33,Male,Master's,8,AI Engineer,"Deep Learning, NLP, Python",AI Engineer
+Chloe Griffin,24,Female,Diploma's,2,Nurse,"Patient Care, Empathy, First Aid",Care Giver
+Ryan Campbell,29,Male,Bachelor's ,6,System Analyst,"Systems Design, Troubleshooting, SQL",System Analyst
+Nora Edwards,27,Female,Bachelor's ,5,Project Manager,"Agile, Scrum, Risk Management",Project Manager
+Leo Patterson,35,Male,Bachelor's ,10,Game Developer,"Unity, C#, Game Design",Web Developer
+Audrey Simmons,28,Female,Bachelor's ,6,Data Analyst,"Excel, SQL, Power BI",Statistician
+Jayden Fisher,30,Male,Bachelor's ,7,System Administrator,"Networking, Linux, Server Management",System Administrator
+Aria Long,26,Female,Master's,4,Blockchain Developer,"Solidity, Ethereum, Smart Contracts",Blockchain Developer
+Xavier Hayes,32,Male,PhD ,10,Forensic Scientist,"DNA Analysis, Toxicology, Lab Research",Forensic Scientist
+John Doe,28,Male,Bachelor's,3,Software Developer,"Python, JavaScript, React, SQL",Full Stack Developer
+Jane Smith,34,Female,Master's,5,Data Scientist,"Python, Machine Learning, SQL, R",Data Scientist
+Robert Brown,26,Male,Bachelor's,2,UI/UX Designer,"Figma, Adobe XD, HTML, CSS",Graphic Designer
+Emily Johnson,30,Female,PhD,7,AI specialist,"Python, TensorFlow, Deep Learning",AI Research Scientist
+Michael Lee,40,Male,Master's,12,Product Manager,"Project Management, Agile, Leadership",Product Manager
+Sarah Williams,29,Female,Bachelor's,4,Web Developer,"JavaScript, HTML, CSS, Node.js",Frontend Developer
+David Clark,35,Male,PhD,10,Data Scientist,"SQL, Excel, Tableau, Python",Data Analyst
+Olivia Turner,32,Female,Master's,6,Software Engineer,"Python, Java, C++, Cloud Computing",Software Engineer
+Brian White,27,Male,Bachelor's,3,Graphic Designer,"Photoshop, Illustrator, InDesign, HTML",UX designer
+Laura Green,33,Female,Master's,8,Business Analyst,"SQL, Excel, Power BI, Project Management",Business Analyst
+William Harris,38,Male,Master's,15,Marketing Manager,"Digital Marketing, SEO, SEM, Content Strategy",Marketing Manager
+Zoe Adams,25,Female,Bachelor's,1,Mobile App Developer,"Java, Swift, Kotlin, React Native",Mobile Developer
+James Wilson,42,Male,Bachelor's,18,Mobile App Developer,"Networking, Systems Administration, Cloud Tech",IT Manager
+Isabella Scott,27,Female,Bachelor's,3,Content Creator,"SEO, Writing, WordPress, Blogging",Writer
+Daniel Harris,30,Male,Master's,7,Software Developer,"Python, Django, SQL, JavaScript",Backend Developer
+Grace Martinez,26,Female,Bachelor's,2,Project Manager,"Scrum, Agile, Microsoft Project, Leadership",Project Manager
+Daniel Lee,28,Male,PhD,4,AI Engineer,"Machine Learning, Python, Neural Networks",AI Engineer
+Nancy Robinson,31,Female,Master's,9,Data Scientist,"SQL, Hadoop, Spark, Python",Data Engineer
+Henry Thompson,36,Male,Bachelor's,11,HR Manager,"HR Software, Employee Relations, Communication",HR Manager
+Lily Davis,24,Female,Bachelor's,1,Network Engineer,"Networking, Cisco, Python, Linux",Network Engineer
+Samuel Moore,32,Male,Master's,7,Data Scientist,"Python, R, Machine Learning, SQL",Data Scientist
+Ashley Carter,29,Female,Bachelor's,4,Digital Marketing Manager,"SEO, SEM, Google Analytics, Content Marketing",Digital Marketing Manager
+Jacob Martinez,27,Male,Bachelor's,3,Frontend Developer,"HTML, CSS, JavaScript, React",Frontend Developer
+Amanda Walker,35,Female,PhD,10,Research Scientist,"Biochemistry, Data Analysis, Python",Research Scientist
+Oliver King,30,Male,Bachelor's,6,Product Designer,"UX/UI Design, Figma, Adobe XD, Sketch",Product Designer
+Grace Phillips,40,Female,Master's,15,HR Director,"HR Management, Leadership, Recruiting",HR Director
+Elijah Carter,26,Male,Bachelor's,2,Software Engineer,"Java, Python, Algorithms, C++",Software Engineer
+Maria White,28,Female,Bachelor's,3,Marketing Coordinator,"Social Media Marketing, Content Creation, SEO",Marketing Coordinator
+William Johnson,31,Male,Master's,8,Full Stack Developer,"JavaScript, Node.js, React, MongoDB",Full Stack Developer
+Mia Brown,24,Female,Bachelor's,2,IT Support Specialist,"Linux, Networking, Troubleshooting",IT Support 
+Benjamin Lee,34,Male,Master's,12,Cybersecurity Specialist,"Network Security, Ethical Hacking, Cryptography",Cybersecurity Specialist
+Chloe Nelson,29,Female,Bachelor's,4,Software Architect,"Java, C#, Microservices, Cloud Computing",Software Architect
+Ethan Clark,38,Male,PhD,14,AI Researcher,"Python, TensorFlow, Machine Learning, Deep Learning",AI Researcher
+Lily Adams,26,Female,Bachelor's,2,Marketing Analyst,"Data Analysis, SEO, Excel, Google Analytics",Marketing Analyst
+Jackson Lewis,33,Male,Bachelor's,8,Mechanical Engineer,"CAD, SolidWorks, MATLAB",Mechanical Engineer
+Charlotte Hall,30,Female,Master's,7,Data Engineer,"SQL, Hadoop, Spark, Data Warehousing",Data Engineer
+Noah King,27,Male,Bachelor's,3,Game Developer,"Unity, C#, Game Design",Game Developer
+Ava Scott,31,Female,Master's,6,Digital Marketer,"Change Management, Strategy, Consulting",Digital Transformation Consultant
+Logan Martinez,39,Male,PhD,16,AI Researcher,"Genetic Research, Bioinformatics, Python",AI researcher
+Lucas Taylor,25,Male,Bachelor's,1,Data Analyst,"Python, SQL, Excel, Tableau",Writer
+Sophia Wilson,28,Female,Master's,5,Software developer,"QA, Automation, Python, Selenium",Software Developer
+Carter Walker,36,Male,Master's,3,Financial Analyst,"Excel, Financial Modeling, Python",Financial Analyst
+Isabella Wright,27,Female,Bachelor's,4,Web Developer,"UX Research, User Testing, Figma, HTML",UX designer
+James Robinson,30,Male,Master's,7,DevOps Engineer,"AWS, Azure, Cloud Security, Networking",Software Developer
+Amelia Young,33,Female,Bachelor's,9,Product Manager,"Agile, Scrum, Project Management, Communication",Product Manager
+Henry Thompson,25,Male,UCE Certificate,2,Bank manager ,"Customer Service, Sales, Inventory Management",Product Manager
+Susan Green,27,Female,Diploma's,4,Doctor,"Patient Care, Medical Records, Compassion",Nurse
+Patrick Williams,30,Male,UACE Certificate,6,Software engineer,"Java, C++, Python, Web Development",Software Developer
+Doris Miller,22,Female,Diploma,1 year,Bank manager ,"MS Office, Communication, Scheduling",Project Manager
+Jacob Williams,28,Male,UACE Certificate,5 years,Accountant,"Accounting, Excel, Financial Reporting",Accountant
+Emily Wright,24,Female,UCE Certificate,2 years,Marketing Assistant,"SEO, Social Media, Digital Advertising",Marketing Assistant
+Samuel Brown,29,Male,Diploma,4 years,Web Developer,"Photoshop, Illustrator, InDesign",Graphic Designer
+Grace Taylor,26,Female,Diploma,3 years,Bank manager ,"Event Coordination, Budgeting, Communication",Event Planner
+Paul James,31,Male,UACE Certificate,8 years,Architect,"Project Management, Construction, Safety",Real Estate Developer
+Olivia Carter,32,Female,UCE Certificate,6 years,Project Manager,"Counseling, Case Management, Social Advocacy",Social Worker
+Adrian White,35,Male,UACE Certificate,10,Hotel manager,"Culinary Arts, Food Safety, Menu Planning",Chef
+Rebecca Taylor,23,Female,Diploma's,2,Electrician,"Customer Service, Travel Planning, Reservation",Project Manager
+Benjamin Turner,26,Male,UCE Certificate,4,Electrician,"Electrical Wiring, Troubleshooting, Safety",Electrician
+Noah Thompson,34,Male,UACE Certificate,12,Civil Engineer,"Structural Design, AutoCAD, Project Management",Civil Engineer
+Carla Mitchell,27,Female,Diploma's,5,Lecturer,"Curriculum Planning, Classroom Management",Primary School Teacher
+Alex Carter,29,Male,UCE Certificate,3,Police Officer,"Risk Assessment, Security Systems, Surveillance",Police officer
+Jasmine Roberts,30,Female,UACE Certificate,7,Judicial Officer,"Recruitment, Employee Relations, HR Systems",Lawyer
+Samuel Scott,38,Male,UACE Certificate,15,Architect,"Inventory Control, Logistics, Team Leadership",Human resource manager
+Lily Harrison,24,Female,UCE Certificate,2,Doctor,"Customer Service, Communication, CRM",Human resource manager
+Ethan Davis,40,Male,UACE Certificate,18,Project Manager,"Logistics, Vehicle Maintenance, Route Planning",Content creator
+Maria Johnson,33,Female,UACE Certificate,9,Architect,"Property Listings, Negotiation, Sales",Real Estate Agent
+Isaac Walker,28,Male,UCE Certificate,2,Architect,"Woodworking, Blueprint Reading, Construction",IT officer
+Sophia Davis,25,Female,Diploma's,3,Musician,"Sketching, Textile Design, Sewing",Writer
+William King,29,Male,UACE Certificate,6,Digital markerter,"Brand Management, Advertising, Analytics",Entreprenuer
+Kate Anderson,24,Female,UCE Certificate,1,Product Manager,"Fitness Coaching, Nutrition, CPR",Real Estate Agent
+Thomas Lee,34,Male,UACE Certificate,10,Architect,"Architectural Design, AutoCAD, 3D Modeling",Architect
+Mia Brown,32,Female,Diploma's,5,Pharmacist,"Lab Equipment, Diagnostics, Patient Testing",Public Health Officer
+Alexander Evans,36,Male,UACE Certificate,14,Marketing Director,"Digital Marketing, Team Leadership, Strategy",Journalist
+Naomi Clark,27,Female,UCE Certificate,3,Public Relations Officer,"Media Relations, Crisis Management, Writing",Writer
+Robert Lewis,30,Male,UACE Certificate,7,Software Engineer,"Python, Java, SQL, Web Development",UX designer
+Charlotte Phillips,29,Female,UCE Certificate,4,Joursalist,"Legal Research, Document Drafting, Court Procedures",Content Creator
+Brian Nakato,28,Male,Diploma's,5,Network Engineer,"Networking, Cisco, Troubleshooting",IT Support 
+Clare Namaganda,25,Female,UACE Certificate,3,Journalist,"Writing, Research, Interviewing",TV presenter
+Peter Okello,33,Male,UACE Certificate,10,Civil Engineer,"AutoCAD, Site Planning, Materials Testing",High school teacher
+Sarah Adoch,29,Female,Bachelor's,6,Data Scientist,"Python, Statistics, Machine Learning",Business Analyst
+Denis Mugisha,30,Male,Diploma's,7,Civil Engineer,"Mechanics, Electrical Systems, Safety Inspection",Automation Engineer
+Angela Tusiime,26,Female,UCE Certificate,3,Nurse,"First Aid, Vital Signs Monitoring, Empathy",Receptionist
+Ronald Bwambale,34,Male,UACE Certificate,12,Software Developer,"HTML, PHP, Databases",Cybersecurity officer
+Brenda Kirabo,27,Female,Bachelor's,5,Human Rights Lawyer,"Advocacy, Legal Research, Public Speaking",Cashier
+Isaac Ssekandi,31,Male,Diploma's,8,Photographer,"Lighting, Editing, Composition",Graphic Designer
+Fiona Nakato,24,Female,UCE Certificate,2,Fashion Designer,"Sewing, Fabric Cutting, Styling",Musician
+James Kyobe,36,Male,UACE Certificate,14,Lecturer,"Research, Academic Writing, Teaching",Sales Representative
+Edith Nanyonjo,29,Female,Diploma's,6,Chef,"Food Prep, Recipe Development, Sanitation",Chef
+Kenneth Tumusiime,32,Male,Bachelor's,9,Political Analyst,"Research, Critical Thinking, Policy Writing",Radio Presenter
+Grace Nabwire,25,Female,UACE Certificate,3,Flight Attendant,"Customer Service, Communication, Safety Briefing",Author
+Joseph Kizza,30,Male,UCE Certificate,5,Event Planner,"Sound Mixing, Studio Equipment, Creativity",Musician
+Doreen Namusoke,33,Female,Diploma's,7,Doctor,"Maternal Care, Health Education, First Aid",Nurse
+Andrew Lwanga,28,Male,UACE Certificate,6,Architect,"3D Modelling, CAD, Structural Design",Web Developer
+Joan Nakitende,26,Female,UCE Certificate,3,Police Officer,"First Aid, Community Policing, Law Knowledge",Police officer
+Marvin Musoke,31,Male,Bachelor's,8,Research Scientist,"Lab Work, Data Analysis, Reporting",AI researcher
+Hellen Mukasa,35,Female,Diploma's,10,Accountant,"Budgeting, Invoicing, Reporting",Project Manager
+Lucy Nakayiza,27,Female,UCE Certificate,3, Pilot,"Aviation Knowledge, Communication, Leadership",Pilot
+Joshua Muwonge,29,Male,UACE Certificate,6,Entrepreneur,"Business Planning, Negotiation, Leadership",Sales Representative
+Betty Akello,25,Female,Diploma's,4,Pharmacist,"Sample Analysis, Microscope Handling, Safety",Nurse
+Daniel Ouma,31,Male,Diploma's,7,IT Manager,"Network Admin, Systems Management, Cybersecurity",IT support
+Rose Mbabazi,28,Female,UACE Certificate,5,Actress,"Acting, Public Speaking, Improvisation",Radio Presenter
+Simon Obbo,30,Male,UCE Certificate,6,Mechanical Engineer,"CAD, Machinery, Maintenance",Chef
+Phiona Kisakye,24,Female,UCE Certificate,2,Model,"Posing, Grooming, Fashion Sense",Fashion designer
+Michael Byaruhanga,32,Male,Diploma's,10,Software Engineer,"Java, Web Dev, SQL",Cybersecurity Specialist
+Agnes Nakimera,34,Female,UACE Certificate,12,Bank manager ,"Finance, Risk Management, Client Relations",Financial Analyst
+Allan Katumba,29,Male,UCE Certificate,4,Interior Designer,"Space Planning, Creativity, 3D Visualization",Architect
+Ruth Kabanda,26,Female,Diploma's,3,TV Presenter,"Public Speaking, Confidence, Creativity",Receptionist
+Samuel Mukiibi,30,Male,UACE Certificate,7,Forensic Scientist,"Investigation, Research, Law",Police officer
+Irene Achieng,25,Female,UCE Certificate,3,Musician,"Singing, Stage Performance, Composition",IT support
+Robert Akena,33,Male,Diploma's,8,Economist,"Data Analysis, Finance, Policy",Marketing Manager
+Juliet Komugisha,28,Female,UCE Certificate,5,Public Health Officer,"Health Education, Sanitation, Field Work",Nurse
+Steven Bukenya,35,Male,UACE Certificate,10,Pilot,"Navigation, Safety, Communication",Chef
+Brenda Mirembe,30,Female,Diploma's,6,Biochemist,"Laboratory Work, Data Analysis, Scientific Writing",Lab Assistant
+Godfrey Tumwine,31,Male,UCE Certificate,7,Chef,"Emergency Response, CPR, Teamwork",Call Center Agent
+Esther Namazzi,27,Female,UACE Certificate,5,Author,"Creative Writing, Editing, Research",Lab Assistant
+George Kato,36,Male,Diploma's,11,Mechanical Engineer,"Motor Repair, Diagnostic Tools, Safety Procedures",Chef
+Kevin Ssenyonga,28,Male,Diploma's,6,Game Developer,"Creativity, Storyboarding, 3D Modeling",Lecturer
+Lydia Nansubuga,26,Female,UCE Certificate,3,Fashion Designer,"Sewing, Fabric Matching, Customer Service",Receptionist
+Fred Kaggwa,35,Male,UACE Certificate,12,Financial Analyst,"Budgeting, Excel, Financial Modeling",Procurement Officer
+Ruth Katusabe,30,Female,Diploma's,7,Chef,"Cooking, Plating, Time Management",Project Manager
+Samuel Omara,32,Male,UCE Certificate,5,Architect,"Drafting, AutoCAD, Site Planning",Electrician
+Tracy Nabukenya,25,Female,UACE Certificate,3,Lawyer,"Public Speaking, Legal Research, Writing", Secretary
+David Owori,34,Male,Diploma's,9,Software Developer,"HTML, CSS, JavaScript",Graphic Designer
+Brenda Kizza,27,Female,UCE Certificate,4,Digital Marketer,"SEO, Social Media, Analytics",Data Entry Clerk
+Isaac Oryema,30,Male,UACE Certificate,6,Mechanical Engineer,"Engine Maintenance, Diagnostics",Data Entry Clerk
+Jane Tendo,24,Female,Diploma's,2,Environmental Scientist,"Sampling, Research, Awareness Campaigns",Police officer
+Mark Musisi,33,Male,UCE Certificate,8,Surgeon,"Endurance, Teamwork, Agility",Public Health Officer
+Stella Amuge,29,Female,UACE Certificate,6,TV Producer,"Directing, Editing, Media Planning",Journalist
+Andrew Lutaaya,31,Male,Diploma,7,Data Analyst,"SQL, Excel, Python",System Administrator
+Caroline Namuli,26,Female,UCE Certificate,3,Surgeon,"Maternal Care, Health Education",Nurse
+Joseph Lubega,36,Male,UACE Certificate,15,Lecturer,"Public Speaking, Research, Instructional Design",Writer
+Fatuma Nansamba,28,Female,UCE Certificate,5,Artist,"Drawing, Painting, Illustration",Writer
+Patrick Muwanguzi,34,Male,Diploma's,10,Systems Administrator,"Networking, Troubleshooting, Server Management",Receptionist
+Annet Mirembe,27,Female,UCE Certificate,4,Pilot,"Decision Making, Alertness, Communication",Artist
+John Bosco Kintu,29,Male,UACE Certificate,6,Pilot,"Aviation, Navigation, Emergency Procedures",Mechanical Engineer
+Mary Komuhangi,31,Female,Diploma's,9,Neurosurgeon,"Lab Analysis, DNA Extraction, Report Writing",Nurse
+John Nabirye,36,Male,Diploma's,12,Chef,"Problem Solving, Data Entry, Mechanical Repair",Receptionist
+Michael Tendo,32,Male,Diploma's,15,Financial Analyst,"Public Speaking, Teamwork, Sales",Bank teller
+Robert Nakato,39,Male,Diploma's,10,Software Developer,"Public Speaking, Mechanical Repair, Excel",Human resource manager
+Grace Namuli,35,Female,Bachelor's,7,Biotechnologist,"Problem Solving, Python, Public Speaking, Mechanical Repair, Customer Service",Police officer
+Michael Kato,35,Male,Diploma's,5,Software Developer,"Communication, Time Management, Excel, Creativity",Nurse
+Juliet Nakato,39,Female,Diploma's,5,TV Producer,"Creativity, Data Entry, Teamwork",UX designer
+Stella Akena,25,Female,UACE Certificate,5,TV Producer,"Problem Solving, Excel, Python",Web Developer
+Stella Nakato,27,Female,Diploma's,2,Artist,"Public Speaking, Creativity, Customer Service",Primary School Teacher
+Joan Ouma,40,Female,UACE Certificate,12,Chef,"Communication, Teamwork, Sales, Problem Solving",Sales Representative
+Samuel Tumusiime,22,Male,Bachelor's,2,Pilot,"Excel, Python, Data Entry",Graphic Designer
+Ruth Akena,26,Female,UCE Certificate,2,Chef,"Problem Solving, Public Speaking, Mechanical Repair, Creativity",Receptionist
+Samuel Tendo,38,Male,Diploma's,12,Journalist,"Teamwork, Problem Solving, Customer Service",Receptionist
+Brenda Akena,28,Female,Bachelor's,4,TV Producer,"Communication, Sales, Python",Fashion designer
+Joseph Nakato,26,Male,Bachelor's,12,Doctor,"Communication, Python, Problem Solving, Time Management",Police officer
+Sarah Tendo,22,Female,Bachelor's,3,TV Producer,"Python, Sales, Mechanical Repair",Receptionist
+Michael Mirembe,24,Male,UACE Certificate,3,Software Developer,"Python, Time Management, Mechanical Repair, Data Entry",Web Developer
+Isaac Lwanga,30,Male,Diploma's,4,Journalist,"Data Entry, Customer Service, Teamwork, Mechanical Repair",Sales Representative
+Sarah Tumusiime,29,Female,UACE Certificate,11,Mechanical Engineer,"Data Entry, Problem Solving, Time Management, Customer Service, Teamwork",Chef
+Stella Lwanga,28,Female,Diploma's,10,Fashion Designer,"Excel, Public Speaking, Mechanical Repair",Lab Assistant
+David Nabirye,27,Male,UACE Certificate,5,Artist,"Creativity, Teamwork, Data Entry",Cashier
+John Nabirye,30,Male,Bachelor's,15,Software Developer,"Time Management, Sales, Teamwork, Excel",Call Center Agent
+Joan Ouma,25,Female,Bachelor's,4,Engineer,"Communication, Sales, Problem Solving, Data Entry, Customer Service",Customer Service Agent
+David Nabirye,29,Male,UACE Certificate,4,Mechanical Engineer,"Sales, Communication, Mechanical Repair",Cashier
+Brenda Ouma,24,Female,Bachelor's,11,Mechanical Engineer,"Python, Public Speaking, Sales",Receptionist
+Grace Nabirye,38,Female,UCE Certificate,2,Fashion Designer,"Customer Service, Communication, Excel",Bank teller
+Sarah Nakato,31,Female,UCE Certificate,5,Data Analyst,"Data Entry, Communication, Teamwork, Excel",Customer Service Agent
+Samuel Namuli,25,Male,UACE Certificate,8,Chef,"Time Management, Sales, Public Speaking",Data Entry Clerk
+Mary Nakato,35,Female,Bachelor's,10,Financial Analyst,"Time Management, Excel, Communication, Public Speaking, Sales",Sales Representative
+Sarah Nabirye,25,Female,Diploma's,15,Teacher,"Communication, Mechanical Repair, Creativity, Data Entry, Problem Solving",Cahier
+Stella Namuli,33,Female,UCE Certificate,4,Radio presenter,"Problem Solving, Excel, Communication, Creativity",Web Developer
+Peter Akena,26,Male,Diploma's,12,Software Developer,"Creativity, Public Speaking, Excel",IT support
+Joan Namuli,29,Female,UCE Certificate,4,Data Analyst,"Excel, Problem Solving, Python, Time Management, Data Entry",High school teacher
+Joan Ouma,33,Female,Diploma's,10,Automation Engineer,"Sales, Teamwork, Public Speaking, Creativity",Primary School Teacher
+Agnes Tendo,30,Female,UACE Certificate,3,Chef,"Communication, Sales, Creativity, Teamwork",Cashier
+Agnes Tendo,25,Female,UCE Certificate,4,Police Officer,"Teamwork, Problem Solving, Customer Service",Radio Presenter
+Andrew Nakato,22,Male,UACE Certificate,6,Financial Analyst,"Customer Service, Creativity, Problem Solving, Teamwork",Nurse
+Peter Tumusiime,27,Male,Diploma's,5,Software Developer,"Excel, Data Entry, Mechanical Repair, Creativity, Teamwork",Data Entry Clerk
+Juliet Lwanga,35,Female,UCE Certificate,5,Financial Analyst,"Time Management, Data Entry, Mechanical Repair, Python",Bank teller
+Sarah Tumusiime,38,Female,Bachelor's,15,Mechanical Engineer,"Data Entry, Public Speaking, Time Management",Data Entry Clerk
+Daniel Ouma,28,Male,Diploma's,13,Fashion Designer,"Time Management, Communication, Public Speaking",Cashier
+Sarah Mirembe,24,Female,Bachelor's,15,Doctor,"Excel, Mechanical Repair, Customer Service, Problem Solving, Data Entry",Data Entry Clerk
+Michael Mirembe,24,Male,Bachelor's,14,Financial Analyst,"Public Speaking, Excel, Creativity, Problem Solving",Call Center Agent
+David Lwanga,22,Male,Diploma's,7,Teacher,"Python, Mechanical Repair, Creativity, Time Management",Cashier
+Brenda Nakato,27,Female,UCE Certificate,14,Fashion Designer,"Mechanical Repair, Public Speaking, Creativity",Lab Assistant
+Brenda Nakato,28,Female,Diploma's,8,Lawyer,"Time Management, Customer Service, Teamwork, Excel",Lab Assistant
+Mary Namuli,24,Female,Diploma's,11,Financial Analyst,"Communication, Data Entry, Public Speaking",Lawyer
+Joan Lwanga,34,Female,Diploma's,3,Web Developer,"Creativity, Public Speaking, Excel",Graphic Designer
+Sarah Nabirye,29,Female,Diploma's,14,TV Producer,"Sales, Communication, Time Management",Psychologist
+Isaac Mirembe,26,Male,Diploma's,11,Lawyer,"Public Speaking, Mechanical Repair, Sales, Excel",Lawyer
+Grace Nakato,27,Female,Diploma's,14,Data Analyst,"Python, Time Management, Mechanical Repair",Data Entry Clerk
+Daniel Ouma,40,Male,UCE Certificate,2,Data Analyst,"Communication, Public Speaking, Python, Customer Service",Receptionist
+Joan Namuli,33,Female,Diploma's,8,Chef,"Problem Solving, Creativity, Communication",Sales Representative
+Andrew Tumusiime,38,Male,Diploma's,5,TV Producer,"Problem Solving, Mechanical Repair, Time Management, Sales, Teamwork",Personal assisstant
+Esther Mirembe,22,Female,Bachelor's,4,Lawyer,"Mechanical Repair, Teamwork, Problem Solving, Customer Service",Cahier
+Daniel Nakato,36,Male,Bachelor's,11,Data Analyst,"Creativity, Time Management, Mechanical Repair",IT officer
+Isaac Namuli,26,Male,UACE Certificate,3,TV Producer,"Problem Solving, Time Management, Mechanical Repair",Receptionist
+Mary Ouma,25,Female,Diploma's,5,Software Engineer,"Problem Solving, Excel, Creativity, Time Management, Mechanical Repair",Primary School Teacher
+Michael Tendo,22,Male,Diploma's,10,Lawyer,"Creativity, Python, Data Entry",Police officer
+John Nakato,36,Male,UACE Certificate,11,Lawyer,"Mechanical Repair, Teamwork, Excel",Bank teller
+Joan Lwanga,30,Female,Bachelor's,6,Journalist,"Data Entry, Communication, Customer Service",Primary School Teacher
+Mary Kato,27,Female,Diploma's,9,Mechanical Engineer,"Mechanical Repair, Data Entry, Public Speaking, Sales",Call Center Agent
+Joan Tumusiime,25,Female,Diploma's,5,Teacher,"Data Entry, Customer Service, Sales, Creativity, Public Speaking",Bank teller
+Robert Lwanga,28,Male,Bachelor's,14,Software Developer,"Communication, Public Speaking, Sales, Teamwork, Problem Solving",Call Center Agent
+Andrew Kato,37,Male,UCE Certificate,2,Software Developer,"Mechanical Repair, Teamwork, Python, Customer Service, Problem Solving",Sales Representative
+Brenda Kato,27,Female,UCE Certificate,3,Lawyer,"Problem Solving, Python, Teamwork, Public Speaking",Library Assistant
+Ruth Namuli,27,Female,UACE Certificate,7,Artist,"Excel, Time Management, Mechanical Repair, Data Entry",Receptionist
+Joseph Namuli,26,Male,Bachelor's,2,Engineer,"Data Entry, Communication, Sales, Customer Service",Receptionist
+Isaac Nabirye,35,Male,UCE Certificate,4,Financial Analyst,"Time Management, Python, Excel, Creativity, Customer Service",Data Entry Clerk
+Stella Namuli,39,Female,Bachelor's,15,Journalist,"Public Speaking, Data Entry, Sales, Problem Solving",Cashier
+Joan Mirembe,38,Female,UACE Certificate,10,Lawyer,"Excel, Communication, Time Management, Public Speaking, Mechanical Repair",Fashion designer
+Mary Akena,24,Female,UACE Certificate,13,Lawyer,"Public Speaking, Data Entry, Teamwork, Communication, Mechanical Repair",Fashion designer
+David Namuli,22,Male,UACE Certificate,11,TV Producer,"Python, Time Management, Sales",Radio Presenter
+Samuel Ouma,40,Male,UCE Certificate,8,Data Analyst,"Data Entry, Python, Teamwork",Customer Service Agent
+Grace Tendo,30,Female,UCE Certificate,2,Mechanical Engineer,"Public Speaking, Python, Mechanical Repair, Teamwork, Customer Service",Police officer
+Stella Kato,32,Female,Diploma's,8,Artist,"Communication, Teamwork, Creativity, Customer Service",Receptionist
+Peter Ouma,29,Male,Diploma's,7,Mechanical Engineer,"Public Speaking, Python, Mechanical Repair, Data Entry, Teamwork",Human resource manager
+Mary Kato,32,Female,UCE Certificate,6,High school teacher,"Problem Solving, Creativity, Python, Excel",Project Manager
+Grace Mirembe,31,Female,Diploma's,7,Doctor,"Sales, Problem Solving, Time Management, Excel, Customer Service",Lab Assistant
+Andrew Namuli,25,Male,UCE Certificate,3,Fashion Designer,"Excel, Sales, Mechanical Repair, Problem Solving, Public Speaking",Sales Representative
+Juliet Mirembe,40,Female,UACE Certificate,7,Pilot,"Excel, Customer Service, Mechanical Repair, Problem Solving, Sales",Data Entry Clerk
+Brenda Lwanga,30,Female,Bachelor's,8,Pilot,"Customer Service, Time Management, Mechanical Repair, Data Entry",Cashier
+Joan Nabirye,36,Female,Bachelor's,3,Financial Analyst,"Mechanical Repair, Python, Public Speaking",Mechanical Engineer
+Andrew Ouma,36,Male,UACE Certificate,13,Chef,"Sales, Problem Solving, Public Speaking, Python, Customer Service",Sales Representative
+Peter Akena,25,Male,UACE Certificate,5,Police Officer,"Mechanical Repair, Teamwork, Python, Excel",Call Center Agent
+Samuel Ouma,27,Male,UCE Certificate,15,Data Analyst,"Creativity, Sales, Teamwork, Data Entry, Excel",Sales Representative
+Joseph Mirembe,32,Male,Bachelor's,9,Artist,"Python, Public Speaking, Sales",Web Developer
+Brenda Mirembe,26,Female,Diploma's,14,Police Officer,"Problem Solving, Creativity, Excel",Customer Service Agent
+Michael Nabirye,36,Male,UACE Certificate,12,Data Analyst,"Excel, Public Speaking, Time Management, Data Entry",Cashier
+Stella Tumusiime,27,Female,Diploma's,4,Data Analyst,"Teamwork, Data Entry, Creativity, Public Speaking",Cashier
+David Kato,32,Male,UCE Certificate,8,Mechanical Engineer,"Sales, Data Entry, Public Speaking, Creativity",Nurse
+Daniel Ouma,26,Male,Bachelor's,13,Software Developer,"Time Management, Communication, Problem Solving",Data Entry Clerk
+Peter Namuli,37,Male,UACE Certificate,10,Chef,"Data Entry, Customer Service, Time Management, Excel, Communication",Primary School Teacher
+Sarah Mirembe,34,Female,UCE Certificate,15,Chef,"Public Speaking, Excel, Customer Service",Primary School Teacher
+David Tumusiime,29,Male,Bachelor's,13,Lawyer,"Time Management, Public Speaking, Teamwork, Sales, Data Entry",Fashion designer
+Samuel Mirembe,31,Male,Diploma's,4,Fashion Designer,"Customer Service, Public Speaking, Problem Solving, Creativity, Python",Receptionist
+Robert Kato,24,Male,Diploma's,11,Teacher,"Mechanical Repair, Creativity, Sales, Python",Fashion designer
+Samuel Akena,39,Male,Bachelor's,9,Chef,"Problem Solving, Communication, Customer Service",Primary School Teacher
+Brenda Kato,37,Female,UCE Certificate,14,Doctor,"Time Management, Sales, Communication, Excel, Problem Solving",Mechanical Engineer
+Daniel Tendo,22,Male,UACE Certificate,5,Lawyer,"Teamwork, Python, Sales",Customer Service Agent
+Mary Kato,34,Female,UACE Certificate,5,Fashion Designer,"Public Speaking, Data Entry, Teamwork",Musician
