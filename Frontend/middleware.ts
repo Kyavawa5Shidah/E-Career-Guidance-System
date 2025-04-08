@@ -21,8 +21,8 @@ export function middleware(request: NextRequest) {
   console.log({
     path,
     isPublicPath,
-    isAuthenticated,
     hasCompletedOnboarding,
+    isAuthenticated,
     token: token ? "exists" : "missing",
   })
 
