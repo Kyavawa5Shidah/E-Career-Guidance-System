@@ -129,7 +129,7 @@ export default function OnboardingPage() {
   const [userProfile, setUserProfile] = useState<UserProfile>({
     firstName: "",
     lastName: "",
-    email: user?.email || "",
+    email: user?.name || "",
     phone: "",
     location: "",
     bio: "",
