@@ -3,11 +3,11 @@ import mysql from 'serverless-mysql';
 
 const db = mysql({
   config: {
-    host: process.env.MYSQL_HOST,
+    host: process.env.DB_HOST,
     port: parseInt(process.env.MYSQL_PORT || '3306'),
-    database: process.env.MYSQL_DATABASE,
-    user: process.env.MYSQL_USERNAME,
-    password: process.env.MYSQL_PASSWORD
+    database: process.env.DB_DATABASE,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD
   }
 });
 

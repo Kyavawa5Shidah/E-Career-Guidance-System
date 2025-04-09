@@ -16,11 +16,13 @@ import { useAuth } from "@/lib/auth-context"
 export default function RegisterPage() {
   const { register } = useAuth()
   const [formData, setFormData] = useState({
-    fullName: "",
+    firstName: "",
+    lastName: "",
     email: "",
     password: "",
     confirmPassword: "",
   })
+  
   const [error, setError] = useState("")
   const [isLoading, setIsLoading] = useState(false)
   const [acceptTerms, setAcceptTerms] = useState(false)
@@ -35,7 +37,7 @@ export default function RegisterPage() {
     setError("")
 
     // Basic validation
-    if (!formData.fullName || !formData.email || !formData.password) {
+    if (!formData.firstName || !formData.lastName ||!formData.email || !formData.password) {
       setError("All fields are required")
       return
     }
@@ -53,7 +55,7 @@ export default function RegisterPage() {
     setIsLoading(true)
 
     try {
-      await register(formData.fullName, formData.email, formData.password)
+      await register(formData.firstName, formData.lastName, formData.email, formData.password)
     } catch (err) {
       setError("Failed to register. Please try again.")
     } finally {
@@ -82,12 +84,23 @@ export default function RegisterPage() {
                 </Alert>
               )}
               <div className="space-y-2">
-                <Label htmlFor="fullName">Full Name</Label>
+                <Label htmlFor="firstName">First Name</Label>
                 <Input
-                  id="fullName"
-                  name="fullName"
-                  placeholder="Enter your full name"
-                  value={formData.fullName}
+                  id="firstName"
+                  name="firstName"
+                  placeholder="Enter your first name"
+                  value={formData.firstName}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="lastName">Last Name</Label>
+                <Input
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Enter your last name"
+                  value={formData.lastName}
                   onChange={handleChange}
                   required
                 />
