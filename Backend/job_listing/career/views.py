@@ -13,9 +13,6 @@ from .scraper import scrape_brighter_monday
 
 
 class JobViewSet(viewsets.ReadOnlyModelViewSet):
-    """
-    API endpoint that allows jobs to be viewed.
-    """
     queryset = Job.objects.all()
     serializer_class = JobSerializer
     filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
@@ -27,17 +24,15 @@ class JobViewSet(viewsets.ReadOnlyModelViewSet):
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def trigger_scraping(request):
-    """
-    Endpoint to manually trigger job scraping
-    """
     task = scrape_jobs_task.delay()
     return Response({"message": "Job scraping started", "task_id": task.id})
 
 
 @api_view(["GET"])
 def get_brighter_monday_jobs(request):
-    jobs = scrape_brighter_monday() 
-    return Response(jobs)
+    jobs = Job.objects.all().order_by('posted_date')  # Optional: limit e.g., .[:20]
+    serializer = JobSerializer(jobs, many=True)
+    return Response(serializer.data)
 
 
 @api_view(['POST'])

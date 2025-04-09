@@ -3,7 +3,7 @@ export async function fetchJobs(filters: Record<string, string> = {}) {
     const queryParams = new URLSearchParams(filters).toString();
     const url = `${baseUrl}?${queryParams}`;
   
-    const response = await fetch(url, { cache: "no-store" }); // Prevent caching issues
+    const response = await fetch(url, { cache: "no-store" }); 
     if (!response.ok) {
       throw new Error("Failed to fetch jobs");
     }
