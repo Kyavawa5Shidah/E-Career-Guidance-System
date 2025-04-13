@@ -180,14 +180,14 @@ def submit_assessment(request):
         }
         
         # Save assessment to database if needed
-        # UserAssessment.objects.create(
-        #     user=request.user if request.user.is_authenticated else None,
-        #     skills=user_skills,
-        #     results=response_data
-        # )
+        UserAssessment.objects.create(
+            user=request.user if request.user.is_authenticated else None,
+            skills=user_skills,
+            results=response_data
+        )
         
         return Response(response_data)
-        
+
     except Exception as e:
         print(f"Error processing assessment: {str(e)}")
         return Response({"error": str(e)}, status=500)
