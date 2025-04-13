@@ -1,0 +1,21 @@
+
+# Django and essential dependencies
+Django>=4.2,<5.0
+djangorestframework
+django-cors-headers
+django-environ
+
+# Database (MySQL)
+mysqlclient
+PyMySQL
+
+# Authentication & Security
+django-allauth
+djangorestframework-simplejwt
+bcrypt
+
+# AI & Machine Learning
+scikit-learn
+pandas
+numpy
+
