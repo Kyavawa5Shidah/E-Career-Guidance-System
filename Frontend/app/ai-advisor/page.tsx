@@ -10,8 +10,10 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
-import { aiService } from "@/lib/ai-service"
+import { fetchAIResponse } from "@/lib/ai-service"
 import { Bot, Send, User, Sparkles, Lightbulb, BookOpen, Briefcase, GraduationCap } from "lucide-react"
+import { marked } from "marked";
+
 
 interface Message {
   id: string
@@ -90,7 +92,7 @@ export default function AIAdvisorPage() {
     setIsLoading(true)
 
     try {
-      const response = await aiService.processMessage(inputValue)
+      const response = await fetchAIResponse(inputValue)
 
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -164,7 +166,8 @@ export default function AIAdvisorPage() {
                           >
                             {message.sender === "ai" && <Bot className="h-5 w-5 mr-2 mt-0.5 shrink-0" />}
                             <div>
-                              <p className="text-sm">{message.content}</p>
+                              <div className="text-sm prose max-w-none"
+                              dangerouslySetInnerHTML={{ __html: marked.parse(message.content) }}/>
                               <p className="text-xs opacity-70 mt-1">
                                 {message.timestamp.toLocaleTimeString([], {
                                   hour: "2-digit",
