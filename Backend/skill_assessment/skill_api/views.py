@@ -7,8 +7,8 @@ from ai_model.predict import identify_skill_gaps
 from ai_model.resources import get_learning_resources
 from django.http import JsonResponse
 import json
-# Add CORS headers to allow requests from your frontend
 from django.views.decorators.csrf import csrf_exempt
+from .utils import generate_dynamic_learning_links
 
 
 def home(request):
@@ -16,6 +16,7 @@ def home(request):
     A simple home endpoint to welcome users to the system.
     """
     return HttpResponse("Welcome to the E-Career Guidance System!")
+    
 @csrf_exempt
 def recommend_careers(request):
     if request.method == 'POST':
@@ -28,39 +29,24 @@ def recommend_careers(request):
         return JsonResponse({"careers": careers})
     return JsonResponse({"error": "Invalid request method"}, status=400)
 
-@csrf_exempt
+@api_view(['POST'])
 def recommend_learning(request):
-    if request.method == 'POST':
-        data = json.loads(request.body)
-        missing_skills = data.get('missing_skills', [])
-        skills_to_improve = data.get('skills_to_improve', [])
+    missing_skills = request.data.get("missing_skills", [])
+    skills_to_improve = request.data.get("skills_to_improve", [])
+    all_skills = set(missing_skills + skills_to_improve)
 
-        # Define a basic resource map
-        resource_map = {
-            "Python": "https://learnpython.org/",
-            "Data Analysis": "https://www.coursera.org/learn/data-analysis",
-            "React": "https://react.dev/learn",
-            "Django": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
-            "Problem Solving": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
-        }
+    resources = []
+    for skill in all_skills:
+        links = generate_dynamic_learning_links(skill)
+        for link in links:
+            resources.append({
+                "skill": skill,
+                "site": link["site"],
+                "resource": link["url"]
+            })
 
-        # Generate resources separately
-        missing_resources = [
-            {"skill": skill, "resource": resource_map.get(skill, f"https://www.google.com/search?q=learn+{skill.replace(' ', '+')}")}
-            for skill in missing_skills
-        ]
-
-        improvement_resources = [
-            {"skill": skill, "resource": resource_map.get(skill, f"https://www.google.com/search?q=improve+{skill.replace(' ', '+')}")}
-            for skill in skills_to_improve
-        ]
-
-        return JsonResponse({
-            "missing_resources": missing_resources,
-            "improvement_resources": improvement_resources
-        })
-
-    return JsonResponse({"error": "Invalid request method"}, status=400)
+    return Response({"resources": resources})
+    
 def process_skills(user_skills):
     """
     Process the user's skills and return analysis results.
