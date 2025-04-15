@@ -4,7 +4,7 @@ import { NextResponse } from "next/server"
 export async function GET() {
   try {
     // In a real implementation, you would fetch this data from your Django backend
-     const response = await fetch('https://your-django-backend.com/api/skill-assessment-results')
+     const response = await fetch('http://127.0.0.1:8000/api/skill-assessment-results')
     // const data = await response.json()
 
     // For now, we'll return mock data
