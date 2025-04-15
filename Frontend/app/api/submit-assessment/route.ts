@@ -7,7 +7,7 @@ export async function POST(request: Request) {
     const { skills } = body
 
     // In a real implementation, you would send this data to your Django backend
-     const response = await fetch('https://your-django-backend.com/api/submit-assessment', {
+     const response = await fetch('http://127.0.0.1:8000/api/submit-assessment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
