@@ -1,66 +1,121 @@
-'use client'
-import React, { useState } from 'react';
+"use client"
 
-const CareerMatch: React.FC = () => {
-  const [interests, setInterests] = useState('');
-  const [skills, setSkills] = useState('');
-  const [education, setEducation] = useState('');
-  const [preferences, setPreferences] = useState('');
-  const [results, setResults] = useState<string[] | null>(null);
+import { useState } from "react"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import CareerForm from "@/components/career-form"
+import TrendingCareers from "@/components/trending-careers"
+import CareerResults from "@/components/career-results"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { AlertCircle } from "lucide-react"
 
-  const [loading, setLoading] = useState(false);
+interface CareerFormData {
+  age: string
+  educationLevel: string
+  careerPreference: string
+  skills: string[]
+  interests: string[]
+}
 
-  const handleSubmit = async () => {
-    setLoading(true);
+interface CareerResult {
+  title: string
+  matchScore: number
+  description: string
+  requiredSkills: string[]
+  industryType: string
+}
+
+export default function CareerPage() {
+  const [showResults, setShowResults] = useState(false)
+  const [careerResults, setCareerResults] = useState<CareerResult[]>([])
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  const handleFormSubmit = async (formData: CareerFormData) => {
+    setIsLoading(true)
+    setError(null)
+
     try {
-      const response = await fetch('http://localhost:8000/api/match-careers/', {
-        method: 'POST',
+      console.log("Submitting form data:", formData)
+
+      // Call the API route to submit the form data to the backend
+      const response = await fetch("/api/predict", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ interests, skills, education, preferences }),
-      });
-  
-      const data = await response.json();
-      console.log('Response from backend:', data); // Debug
-  
-      if (response.ok && Array.isArray(data.careers)) {
-        setResults(data.careers);
+        body: JSON.stringify(formData),
+      })
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`)
+      }
+
+      const responseData = await response.json()
+      console.log("API response:", responseData)
+
+      const recommendations = responseData.recommendations
+
+      // Check if results is an array
+      if (!Array.isArray(recommendations)) {
+        console.error("Expected array of results but got:", responseData)
+        setError("Received invalid data format from server")
+        setCareerResults([])
       } else {
-        setResults([`Error: ${data.error || "Unexpected response"}`]);
+        setCareerResults(recommendations)
+        setShowResults(true)
       }
     } catch (error) {
-      setResults(['Something went wrong!']);
+      console.error("Error submitting form:", error)
+      setError("Failed to get career matches. Please try again later.")
+      setCareerResults([])
     } finally {
-      setLoading(false);
+      setIsLoading(false)
     }
-  };
-  
+  }
+
+  const resetResults = () => {
+    setShowResults(false)
+    setError(null)
+  }
 
   return (
-    <div>
-      <h2>Career Guidance</h2>
-      <textarea placeholder="Interests" value={interests} onChange={(e) => setInterests(e.target.value)} />
-      <textarea placeholder="Skills" value={skills} onChange={(e) => setSkills(e.target.value)} />
-      <textarea placeholder="Education" value={education} onChange={(e) => setEducation(e.target.value)} />
-      <textarea placeholder="Preferences" value={preferences} onChange={(e) => setPreferences(e.target.value)} />
-      <button onClick={handleSubmit} disabled={loading}>
-        {loading ? 'Matching...' : 'Find Careers'}
-      </button>
+    <div className="container mx-auto py-8 px-4">
+      <h1 className="text-3xl font-bold mb-6">Career Matching Portal</h1>
 
-      {results && (
-  <div>
-    <h3>Results</h3>
-    <ul>
-      {results.map((item, i) => (
-        <li key={i}>{item}</li>
-      ))}
-    </ul>
-  </div>
-)}
+      {error && (
+        <Alert variant="destructive" className="mb-6">
+          <AlertCircle className="h-4 w-4" />
+          <AlertTitle>Error</AlertTitle>
+          <AlertDescription>{error}</AlertDescription>
+        </Alert>
+      )}
 
+      {!showResults ? (
+        <Tabs defaultValue="matching" className="w-full">
+          <TabsList className="grid w-full grid-cols-2 mb-8">
+            <TabsTrigger value="matching">Career Matching</TabsTrigger>
+            <TabsTrigger value="trending">Trending Careers</TabsTrigger>
+          </TabsList>
+
+          <TabsContent value="matching">
+            <CareerForm onSubmit={handleFormSubmit} isLoading={isLoading} />
+          </TabsContent>
+
+          <TabsContent value="trending">
+            <TrendingCareers />
+          </TabsContent>
+        </Tabs>
+      ) : (
+        <div>
+          <button
+            onClick={resetResults}
+            className="mb-6 text-sm font-medium flex items-center text-muted-foreground hover:text-primary"
+          >
+            ← Back to form
+          </button>
+          <CareerResults results={careerResults} />
+        </div>
+      )}
     </div>
-  );
-};
-
-export default CareerMatch;
+  )
+}
