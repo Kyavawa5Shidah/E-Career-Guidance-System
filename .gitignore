@@ -34,3 +34,5 @@ backend/*.pyo
 
 #Ignore virtual environment
 env
+
+model
