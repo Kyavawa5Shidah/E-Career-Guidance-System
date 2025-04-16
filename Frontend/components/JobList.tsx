@@ -1,4 +1,4 @@
-"use client"; // Enables client-side interactivity
+"use client";
 
 import { useState, useEffect } from "react";
 
@@ -7,6 +7,7 @@ interface Job {
   title: string;
   company: string;
   location: string;
+  job_url: string;
 }
 
 export default function JobList() {
@@ -38,9 +39,17 @@ export default function JobList() {
         <ul className="space-y-4">
           {jobs.map((job) => (
             <li key={job.id} className="border p-4 rounded-lg shadow">
-              <h3 className="text-lg font-semibold">{job.title}</h3>
+              <h3 className="text-lg font-semibold mb-1">{job.title}</h3>
               <p>Company: {job.company}</p>
               <p>Location: {job.location}</p>
+              <a
+                href={job.job_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+              >
+                View Job
+              </a>
             </li>
           ))}
         </ul>
