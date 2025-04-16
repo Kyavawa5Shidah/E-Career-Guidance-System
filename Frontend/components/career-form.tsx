@@ -50,7 +50,7 @@ export default function CareerForm({ onSubmit, isLoading = false }: CareerFormPr
     { id: "technology", label: "Technology" },
     { id: "medicine", label: "Medicine" },
     { id: "finance", label: "Finance" },
-    { id: "education", label: "Education" },
+    { id: "education planning", label: "Education" },
     { id: "arts", label: "Arts & Entertainment" },
     { id: "science", label: "Science" },
     { id: "public health", label: "Public Health" },
@@ -63,7 +63,6 @@ export default function CareerForm({ onSubmit, isLoading = false }: CareerFormPr
     { id: "advertising", label: "Advertising" },
     { id: "content creation", label: "Content Creation" },
     { id: "public service", label: "Public Service" },
-    { id: "content creation", label: "Content Creation" },
   ]
 
   const addCustomSkill = () => {
@@ -264,16 +263,6 @@ export default function CareerForm({ onSubmit, isLoading = false }: CareerFormPr
             </div>
           </div>
 
-          {/* Career Preference */}
-          <div className="space-y-2">
-            <Label htmlFor="career-preference">Career Preference</Label>
-            <Input
-              id="career-preference"
-              placeholder="Enter your career preference"
-              value={careerPreference}
-              onChange={(e) => setCareerPreference(e.target.value)}
-            />
-          </div>
           <CardFooter className="flex justify-between">
         <Button variant="outline" type="button" onClick={handleReset}>
           Reset
