@@ -64,7 +64,7 @@ Care Giver,Assists elderly or disabled individuals with daily tasks,"Compassion,
 Linguist,Studies and analyzes languages,"Language analysis, communication",Bachelor’s,Finance
 Industrial Chemist,Develops chemical products and processes,"Chemistry, lab skills, problem-solving",Bachelor’s ,Chemistry
 DevOps Engineer,Manages IT infrastructure for software deployment,"Cloud computing, automation, programming",Bachelor’s ,Technology
-Automation Engineer,Designs and maintains automation systems,"Robotics, programming, system design",Bachelor’s ,Design
+Automation Engineer,Designs and maintains automation systems,"Robotics, programming, system design",Bachelor’s ,Design/Technology
 Control Systems Engineer,Develops automated control systems for industries,"Electrical engineering, software development",Bachelor’s ,Technology
 Peiatric Nurse,Specializes in healthcare for children,"Nursing, child care, medical skills",Bachelor’s ,Healthcare
 Forensic Scientist,Analyzes crime scene evidence for investigations,"Lab skills, criminal investigation",Bachelor’s ,Crime
@@ -85,8 +85,8 @@ Musician,Creates and performs music in various genres,"Musical ability, creativi
 Film Maker,Directs and produces movies and documentaries,"Filmmaking, storytelling, camera work",Bachelor’s ,"Media, Entertainment"
 Embedded Systems Engineer,Develops software for embedded hardware devices,"C/C++, microcontrollers, electronics",Bachelor’s ,"IT, Electronics"
 Web Developer,Builds and maintains websites,"HTML, CSS, JavaScript, web frameworks",Bachelor’s ,"IT, Tech"
-Front-end Developer,Designs and develops the user interface of websites,"JavaScript, React, UI/UX design",Bachelor’s ,"IT, Software"
-Back-end Developer,Develops server-side logic and databases for applications,"Node.js, Python, databases",Bachelor’s ,"IT, Software"
+Frontend Developer,Designs and develops the user interface of websites,"JavaScript, React, UI/UX design",Bachelor’s ,"IT, Software"
+Backend Developer,Develops server-side logic and databases for applications,"Node.js, Python, databases",Bachelor’s ,"IT, Software"
 Content Creator,"Produces digital content for social media, blogs, or videos","Creativity, writing, video editing",UACE certificate,"Media, Marketing"
 Machine Learning Engineer,Builds AI models for automation and prediction,"Python, data science, deep learning",Bachelor’s,"IT, Research"
 Digital Marketer,"Promotes brands online through SEO, social media, and ads","SEO, content marketing, analytics",Bachelor’s ,"Advertising, Business"
@@ -117,7 +117,7 @@ Media Planner,Determines optimal media channels for ad campaigns.,"Strategic thi
 TV Producer,Oversees the production of TV programs from concept to completion.,"Project management, creativity, leadership, budgeting","Bachelor’s in film, media, or communication; experience in production",Media/Entertainment
 Instructional Coordinator,Develops educational material and curriculum standards.,"Curriculum design, educational research, organization",Master’s in education or related field,Education
 Education Consultant,Advises schools or individuals on educational best practices and improvements.,"Communication, analysis, teaching background, consulting skills",Bachelor’s or master’s in education,Education
-School Admnistrator,"Manages school operations including staff, budgets, and curriculum.","Leadership, decision-making, organization, communication",Master’s in education admin or leadership,Education
+School Administrator,"Manages school operations including staff, budgets, and curriculum.","Leadership, decision-making, organization, communication",Master’s in education admin or leadership,Education
 Education Policy Analyst,Researches and evaluates education policies to improve systems.,"Research, policy analysis, critical thinking, writing","Master’s in public policy, education, or related field",Government/Education
 Curriculum Developer,Designs and improves educational content for various levels.,"Curriculum design, pedagogical knowledge, collaboration",Bachelor’s or master’s in education or curriculum design,Education
 Special Education Teacher,Educates students with disabilities through specialized instruction.,"Patience, adaptability, special education methods, empathy",Bachelor’s in special education; licensure required,Education
@@ -132,3 +132,23 @@ Advertising Executive,Manages client relationships and marketing strategies in a
 Public Relations Specialist,Manages an organization’s public image and media relations.,"Writing, media handling, interpersonal skills, strategic thinking","Bachelor’s in PR, journalism, or communication",PR/Marketing
 Film Editor,Edits raw video footage into cohesive and compelling stories.,"Video editing software, storytelling, timing, creativity","Degree in film, media, or experience in video editing",Media/Entertainment
 Copywriter,Writes persuasive and engaging content for advertising or branding.,"Writing, creativity, research, SEO knowledge","Bachelor’s in English, marketing, or journalism",Advertising/Marketing
+Community Development Officer,Works to improve community well-being through programs and outreach,"Community engagement, communication, planning","Degree in Social Work, Community Dev",Nonprofit/Public Sector
+Government Administrator,Manages public administration tasks and government operations,"Organizational, policy understanding, leadership",Degree in Public Administration,Government
+Policy Analyst,"Analyzes policies, prepares reports, and advises on public strategies","Analytical thinking, research, communication","Degree in Public Policy, Political Science",Government
+Immigration Officer,Enforces immigration laws and reviews visa/passport applications,"Attention to detail, legal knowledge, communication","Degree in Law, Criminology",Government/Legal
+Economic Planner,Develops economic plans for regions or nations,"Data analysis, economics knowledge, forecasting","Degree in Economics, Urban Planning",Government/Economic Dev
+Legal Officer,Provides legal advice and represents an organization legally,"Legal writing, research, negotiation",Law Degree (LLB),Legal/Government/Corporate
+Retail Supervisor,Oversees retail staff and store operations,"Team leadership, sales, inventory control",Diploma/Degree in Business or Retail,Retail
+Retail Sales Associate,Assists customers and promotes sales in a retail environment,"Customer service, sales, communication",High School/Diploma,Retail
+Cashier,Handles customer transactions at points of sale,"Accuracy, customer service, basic math",High School Certificate,Retail
+Retail Buyer,Selects and purchases products for retail stores,"Market analysis, negotiation, trend forecasting","Degree in Business, Fashion, or Retail",Retail
+Visual Merchandiser,Designs and arranges product displays to attract customers,"Creativity, design, attention to detail",Diploma in Visual Merchandising/Design,Retail
+Store Manager,Manages all store operations and staff,"Leadership, inventory, budgeting",Degree/Diploma in Business/Retail,Retail
+Product Promoter,Markets and demonstrates products to boost sales,"Persuasion, public speaking, product knowledge",High School/Diploma,Marketing/Retail
+Stock Clerk,Organizes and manages inventory in retail or warehouse settings,"Organization, time management, attention to detail",High School Certificate,Retail/Logistics
+Product Manager,Oversees product development from idea to launch,"Project management, market research, communication","Degree in Business, IT, or Engineering",Technology/Consumer Goods
+Operations Manager,Ensures efficient operations and workflow in an organization,"Strategic thinking, leadership, analytics",Degree in Business/Operations Management,Across all sectors
+Management Consultant,Advises companies on improving performance,"Problem-solving, analysis, communication","Degree in Business, Economics, MBA",Consulting
+Sales Executive,Sells products/services and builds client relationships,"Sales strategy, communication, negotiation",Degree in Marketing or Business,Sales/Marketing
+Financial Advisor,Offers financial planning and investment advice,"Finance knowledge, communication, analytical skills","Degree in Finance, Accounting, Certification (e.g., CFP)",Finance
+Customer Success Manager,Ensures customers achieve value and satisfaction with a product/service,"Relationship management, problem-solving, empathy",Degree in Business or Communication,Technology/Services
