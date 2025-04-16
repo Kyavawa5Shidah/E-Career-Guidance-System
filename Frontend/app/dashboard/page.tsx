@@ -32,7 +32,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Badge } from "@/components/ui/badge"
-import { aiService } from "@/lib/ai-service"
+import { fetchAIResponse } from "@/lib/ai-service"
 import { Input } from "@/components/ui/input"
 
 // Add this interface at the top of the file, before the component definition
@@ -284,7 +284,7 @@ export default function DashboardPage() {
     setQuickAnswer("")
 
     try {
-      const answer = await aiService.processMessage(quickQuestion)
+      const answer = await fetchAIResponse(quickQuestion)
       setQuickAnswer(answer)
     } catch (error) {
       setQuickAnswer("Sorry, I couldn't process your question. Please try again.")
