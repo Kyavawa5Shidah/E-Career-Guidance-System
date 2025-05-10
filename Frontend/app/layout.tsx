@@ -5,6 +5,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { AuthProvider } from "@/lib/auth-context"
 import { Navbar } from "@/components/nav-bar"
+import  PublicHeader  from "@/components/public-header"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,7 +25,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <AuthProvider>
             <div className="min-h-screen flex flex-col">
-              <Navbar />
+            {true ? <Navbar /> : <PublicHeader />}
               <main className="flex-1">{children}</main>
             </div>
           </AuthProvider>

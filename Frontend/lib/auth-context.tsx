@@ -28,109 +28,59 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const isAuthenticated = !!user
 
-  // Check if user is logged in on mount
   useEffect(() => {
-    const checkAuth = () => {
-      // In a real app, this would verify the token with your backend
-      const storedUser = localStorage.getItem("user")
-
-      if (storedUser) {
-        setUser(JSON.parse(storedUser))
-      }
-
-      setIsLoading(false)
+    const storedUser = sessionStorage.getItem("user")
+    if (storedUser) {
+      setUser(JSON.parse(storedUser))
     }
-
-    checkAuth()
+    setIsLoading(false)
   }, [])
 
-  // Login function
   const login = async (email: string, password: string) => {
-    setIsLoading(true)
-
-    try {
-      // In a real app, this would be an API call to your backend
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      // Mock user data
-      const userData: User = {
-        id: "user_" + Math.random().toString(36).substr(2, 9),
-        name: email.split("@")[0],
-        email,
-        role: "user",
-      }
-
-      // Save to localStorage
-      localStorage.setItem("user", JSON.stringify(userData))
-      setUser(userData)
-
-      // Also set a token in localStorage and cookie for middleware to detect
-      const token = "mock-jwt-token-" + Math.random().toString(36).substr(2, 9)
-      localStorage.setItem("token", token)
-      document.cookie = `token=${token}; path=/; max-age=86400`
-
-      // Check if user has completed onboarding
-      const userProfile = localStorage.getItem("userProfile")
-
-      if (userProfile) {
-        const profile = JSON.parse(userProfile)
-
-        if (profile.profileCompleted) {
-          // User has completed onboarding, redirect to dashboard
-          document.cookie = `profileCompleted=true; path=/; max-age=86400`
-          window.location.href = "/dashboard"
-        } else {
-          // User has not completed onboarding, redirect to onboarding
-          document.cookie = `profileCompleted=false; path=/; max-age=86400`
-          window.location.href = "/onboarding"
-        }
-      } else {
-        // No profile found, this is first login, redirect to onboarding
-        document.cookie = `profileCompleted=false; path=/; max-age=86400`
-        window.location.href = "/onboarding"
-      }
-    } catch (error) {
-      console.error("Login failed:", error)
-      throw error
-    } finally {
-      setIsLoading(false)
+    const res = await fetch("/api/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password }),
+    })
+  
+    const data = await res.json()
+    console.log("Login API response:", data)
+  
+    if (!res.ok) {
+      throw new Error(data.error || "Login failed")
     }
+  
+    setUser(data.user)
+    localStorage.setItem("user", JSON.stringify(data.user))
+    document.cookie = `token=mock-token; path=/; max-age=86400`
+    router.push("/dashboard")
   }
+  
 
-  // Logout function
   const logout = () => {
-    localStorage.removeItem("user")
-    localStorage.removeItem("token")
-    document.cookie = "token=; path=/; max-age=0"
-    document.cookie = "profileCompleted=; path=/; max-age=0"
+    sessionStorage.removeItem("user")
     setUser(null)
     router.push("/login")
   }
 
-  // Register function
   const register = async (name: string, email: string, password: string) => {
     setIsLoading(true)
-
     try {
-      // In a real app, this would be an API call to your backend
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, password }),
+      })
 
-      // Mock user data
-      const userData: User = {
-        id: "user_" + Math.random().toString(36).substr(2, 9),
-        name,
-        email,
-        role: "user",
+      if (!res.ok) {
+        throw new Error("Registration failed")
       }
 
-      // Save to localStorage
-      localStorage.setItem("user", JSON.stringify(userData))
-      setUser(userData)
+      const data = await res.json()
+      setUser(data.user)
+      sessionStorage.setItem("user", JSON.stringify(data.user))
 
-      // Redirect to onboarding for new users
-      router.push("/onboarding")
+      router.push("/dashboard")
     } catch (error) {
       console.error("Registration failed:", error)
       throw error

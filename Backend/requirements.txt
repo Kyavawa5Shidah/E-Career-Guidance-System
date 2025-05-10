@@ -1,0 +1,5 @@
+Django==4.2  # Ensure this matches your version
+djangorestframework==3.13.1  # If you're using Django REST Framework
+requests
+scikit-learn
+pandas
